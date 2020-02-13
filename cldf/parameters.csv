@@ -1,0 +1,481 @@
+ID,Name,Concepticon_ID,Concepticon_Gloss,French_Gloss,Latin_Gloss,Number
+Gauchat-1925-480-1_ilfait,il fait,,,il fait,facit,1
+Gauchat-1925-480-2_chaud,chaud,1286,HOT,chaud,caldu,2
+Gauchat-1925-480-3_aujourdhui,aujourd‘hui,1283,TODAY,aujourd‘hui,hodie,3
+Gauchat-1925-480-4_cest,c’est,1579,BE,c’est,est,4
+Gauchat-1925-480-5_unbon,un bon,1035,GOOD,un bon,bonu,5
+Gauchat-1925-480-6_temps,temps,952,WEATHER,temps,tempus,6
+Gauchat-1925-480-7_une,une,1493,ONE,une,una,7
+Gauchat-1925-480-8_bonne,bonne,1035,GOOD,bonne,bona,8
+Gauchat-1925-480-9_saison,saison,691,SEASON,saison,satione,9
+Gauchat-1925-480-10_ilpleut,il pleut,1253,RAIN (RAINING),il pleut,plovet,10
+Gauchat-1925-480-11_chaque,chaque,98,ALL,chaque,cata + quisque,11
+Gauchat-1925-480-12_jour,jour,1260,DAY (24 HOURS),jour,diurnu,12
+Gauchat-1925-480-13_hier,hier,1174,YESTERDAY,hier,heri,13
+Gauchat-1925-480-14_ilyavait,il y avait,,,il y avait,habebat,14
+Gauchat-1925-480-15_peude,peu de,1242,FEW,peu de,paucu,15
+Gauchat-1925-480-16_rosee,rosée,1977,DEW,rosée,rosata,16
+Gauchat-1925-480-17_ilfaisait,il faisait,,,il faisait,faciebat,17
+Gauchat-1925-480-18_froid,froid,1287,COLD,froid,frigidu,18
+Gauchat-1925-480-19_lamatinee,la matinée,1339,MORNING,la matinée,matutinata,19
+Gauchat-1925-480-20_etait,était,,,était,erat (est + ebat),20
+Gauchat-1925-480-21_froide,froide,1287,COLD,froide,frigida,21
+Gauchat-1925-480-22_lesmatinees,les matinées,1339,MORNING,les matinées,matutinatas,22
+Gauchat-1925-480-23_sont,sont,1579,BE,sont,sunt,23
+Gauchat-1925-480-24_froides,froides,1287,COLD,froides,frigidas,24
+Gauchat-1925-480-25_lagelee,la gelée,2034,FROST,la gelée,gelata,25
+Gauchat-1925-480-26_estdangereuse,est dangereuse,3466,DANGEROUS,est dangereuse,dominiariu + osa,26
+Gauchat-1925-480-27_lesgelees,les gelées,2034,FROST,les gelées,gelatas,27
+Gauchat-1925-480-28_sontdangereuses,sont dangereuses,3466,DANGEROUS,sont dangereuses,dominiariu + osas,28
+Gauchat-1925-480-29_lanuit,la nuit,1233,NIGHT,la nuit,nocte,29
+Gauchat-1925-480-30_onvoit,on voit,1409,SEE,on voit,homo videt,30
+Gauchat-1925-480-31_lalune,la lune,1313,MOON,la lune,luna,31
+Gauchat-1925-480-32_lesetoiles,les étoiles,1430,STAR,les étoiles,stellas,32
+Gauchat-1925-480-33_ilnefautpas,il ne faut pas,,,il ne faut pas,fallit,33
+Gauchat-1925-480-34_avoir,avoir,773,HAVE,avoir,habere,34
+Gauchat-1925-480-35_peur,peur,781,FEAR (FRIGHT),peur,pavore,35
+Gauchat-1925-480-36_dutonnerre,du tonnerre,1150,THUNDER,du tonnerre,tonitru,36
+Gauchat-1925-480-37_aumois,au mois,1370,MONTH,au mois,mese,37
+Gauchat-1925-480-38_defevrier,de février,2037,FEBRUARY,de février,febrariu,38
+Gauchat-1925-480-39_ilya,il y a,2152,THERE IS OR THERE ARE,il y a,habet,39
+Gauchat-1925-480-40_delaneige,de la neige,784,SNOW,de la neige,nive,40
+Gauchat-1925-480-41_delaglace,de la glace,617,ICE,de la glace,glacia,41
+Gauchat-1925-480-42_ilfait,il fait,2152,THERE IS OR THERE ARE,il fait,facit,42
+Gauchat-1925-480-43_duvent,du vent,960,WIND,du vent,ventu (aura),43
+Gauchat-1925-480-44_lhiver,l’hiver,1471,WINTER,l’hiver,hibernu,44
+Gauchat-1925-480-45_arrive,arrive,1387,ARRIVE,arrive,adripat,45
+Gauchat-1925-480-46_ilestla,il est là,,,il est là,illac,46
+Gauchat-1925-480-47_jedois,je dois,971,MUST,je dois,debeo,47
+Gauchat-1925-480-48_descendre,descendre,2014,GO DOWN (DESCEND),descendre,descendere,48
+Gauchat-1925-480-49_enville,en ville,930,VILLAGE,en ville,villa,49
+Gauchat-1925-480-50_ilfaut,il faut,971,MUST,il faut,fallit,50
+Gauchat-1925-480-51_suivre,suivre,1085,FOLLOW,suivre,sequere,51
+Gauchat-1925-480-52_lesentier,le sentier,2252,PATH,le sentier,semitariu,52
+Gauchat-1925-480-53_jusqua,jusqu’à,2753,UNTIL,jusqu’à,tantu + que,53
+Gauchat-1925-480-54_lacroisee,la croisée,,,la croisée,cruciata,54
+Gauchat-1925-480-55_traverser,traverser,1742,TRAVERSE,traverser,transversare,55
+Gauchat-1925-480-56_lechamp,le champ,212,FIELD,le champ,campu,56
+Gauchat-1925-480-57_lepre,le pré,,,le pré,pratu,57
+Gauchat-1925-480-58_passer,passer,,,passer,passare,58
+Gauchat-1925-480-59_verslacroix,vers la croix,,,vers la croix,cruce,59
+Gauchat-1925-480-60_lepuits,le puits,954,WELL,le puits,puteu,60
+Gauchat-1925-480-61_lechable,le „chable“,,,le „chable“,catabolu,61
+Gauchat-1925-480-62_cest,c‘est,1579,BE,c‘est,est,62
+Gauchat-1925-480-63_unlieu,un lieu,723,PLACE (POSITION),un lieu,unu locu,63
+Gauchat-1925-480-64_dangereux,dangereux,3466,DANGEROUS,dangereux,dominiariu + osu,64
+Gauchat-1925-480-65_larive,la rive,666,RIVER,la rive,ripa,65
+Gauchat-1925-480-66_estetroite,est étroite,1404,STRAIGHT,est étroite,stricta,66
+Gauchat-1925-480-67_legrenier,le grenier,,,le grenier,granariu,67
+Gauchat-1925-480-68_etlebattoir,et le „battoir“,,,et le „battoir“,batt + atoriu,68
+Gauchat-1925-480-69_sonttoutpres,sont tout près,,,sont tout près,pressu,69
+Gauchat-1925-480-70_duvillage,du village,930,VILLAGE,du village,villaticu,70
+Gauchat-1925-480-71_allonsy,allons-y,695,GO,allons-y,ambulemus,71
+Gauchat-1925-480-72_ensemble,ensemble,2482,TOGETHER,ensemble,insimul,72
+Gauchat-1925-480-73_prendsgarde,prends garde,,,prends garde,cavica,73
+Gauchat-1925-480-74_detencoubler,de t‘“encoubler“,,,de t‘“encoubler“,incopulare,74
+Gauchat-1925-480-75_lepont,le pont,1011,BRIDGE,le pont,ponte,75
+Gauchat-1925-480-76_esten,est en,1579,BE,est en,est in,76
+Gauchat-1925-480-77_pierre,pierre,857,STONE,pierre,petra,77
+Gauchat-1925-480-78_enfer,en fer,621,IRON,en fer,ferru,78
+Gauchat-1925-480-79_ilestneuf,il est neuf,1231,NEW,il est neuf,novu,79
+Gauchat-1925-480-80_large,large,2531,BROAD,large,largu,80
+Gauchat-1925-480-81_lemur,le mur,933,WALL (OF HOUSE),le mur,muru,81
+Gauchat-1925-480-82_estcommence,est commencé,3447,BEGIN OR START,est commencé,cuminitiatu,82
+Gauchat-1925-480-83_latour,la tour,2393,JOURNEY,la tour,turre,83
+Gauchat-1925-480-84_estcommencee,(est) commencée,3447,BEGIN OR START,(est) commencée,cuminitiata,84
+Gauchat-1925-480-85_lestours,les tours,2393,JOURNEY,les tours,turres,85
+Gauchat-1925-480-86_sontcommencees,(sont) commencées,3447,BEGIN OR START,(sont) commencées,cuminitatias,86
+Gauchat-1925-480-87_lebuf,le bœuf,3044,BOVINE,le bœuf,bove,87
+Gauchat-1925-480-88_adescornes,a des cornes,1393,HORN (ANATOMY),a des cornes,habet corn(u)as,88
+Gauchat-1925-480-89_lechelle,l‘échelle,1464,LADDER,l‘échelle,scala,89
+Gauchat-1925-480-90_estdresse,est dressé,1404,STRAIGHT,est dressé,directiata,90
+Gauchat-1925-480-91_contre,contre,2469,AGAINST,contre,contra,91
+Gauchat-1925-480-92_lefaite,le faîte,1753,TOP,le faîte,fresta,92
+Gauchat-1925-480-93_dutoit,du toit,769,ROOF,du toit,tectu,93
+Gauchat-1925-480-94_ilferme,il ferme,1046,SHUT,il ferme,claudit,94
+Gauchat-1925-480-95_lafenetre,la fenêtre,1375,WINDOW,la fenêtre,fenestra,95
+Gauchat-1925-480-96_delachambre,de la chambre,1450,ROOM,de la chambre,pe(n)sile,96
+Gauchat-1925-480-97_ilbalaie,il balaie,230,SWEEP,il balaie,scopat,97
+Gauchat-1925-480-98_devant,devant,1883,IN FRONT OF,devant,de + abante,98
+Gauchat-1925-480-99_laporte,la porte,1567,DOOR,la porte,porta,99
+Gauchat-1925-480-100_delagrange,de la grange,,,de la grange,granica,100
+Gauchat-1925-480-101_ona,on a,773,HAVE,on a,homo habet,101
+Gauchat-1925-480-102_perdu,perdu,1660,LOSE,perdu,perdutu,102
+Gauchat-1925-480-103_laclef,la clef,1472,KEY,la clef,clave,103
+Gauchat-1925-480-104_duclocher,du clocher,,,du clocher,cloccariu,104
+Gauchat-1925-480-105_elleest,elle est,,,elle est,illa est,105
+Gauchat-1925-480-106_perdue,perdue,1660,LOSE,perdue,perduta,106
+Gauchat-1925-480-107_quia,qui a,1235,WHO,qui a,cui / qualis habet,107
+Gauchat-1925-480-108_faitcela,fait cela?,813,DO,fait cela?,factu,108
+Gauchat-1925-480-109_jevais,je vais,695,GO,je vais,vado,109
+Gauchat-1925-480-110_aumarche,au marché,633,MARKET,au marché,mercatu,110
+Gauchat-1925-480-111_chercher,chercher,1468,LOOK FOR,chercher,circare,111
+Gauchat-1925-480-112_unepelle,une pelle,1901,SHOVEL,une pelle,pala,112
+Gauchat-1925-480-113_unefaux,(une) faux,2132,SICKLE OR SCYTHE,(une) faux,falce,113
+Gauchat-1925-480-114_unmanchedefaux,(un) manche de faux,,,(un) manche de faux,falcariu,114
+Gauchat-1925-480-115_unfleau,(un) fléau,,,(un) fléau,flagellu,115
+Gauchat-1925-480-116_unvan,(un) van,,,(un) van,vannu,116
+Gauchat-1925-480-117_unechaudiere,(une) chaudière,,,(une) chaudière,caldaria,117
+Gauchat-1925-480-118_unecharrue,(une) charrue,1921,PLOUGH,(une) charrue,carruca,118
+Gauchat-1925-480-119_unecuve,(une) cuve,2548,BARREL,(une) cuve,cupa,119
+Gauchat-1925-480-120_unpetrin,(un) pétrin,,,(un) pétrin,magide,120
+Gauchat-1925-480-121_unjoug,(un) joug,14,YOKE,(un) joug,jugu,121
+Gauchat-1925-480-122_unmanche,(un) manche,1254,HANDLE,(un) manche,manicu,122
+Gauchat-1925-480-123_unecage,(une) cage,3283,CAGE,(une) cage,cavea,123
+Gauchat-1925-480-124_unlit,(un) lit,1663,BED,(un) lit,lectu,124
+Gauchat-1925-480-125_unebouteille,(une) bouteille,1321,BOTTLE,(une) bouteille,buttucula,125
+Gauchat-1925-480-126_uncouteau,(un) couteau,1352,KNIFE,(un) couteau,cultellu,126
+Gauchat-1925-480-127_desciseaux,(des) ciseaux,356,SHEARS,(des) ciseaux,forfices,127
+Gauchat-1925-480-128_unmiroir,(un) miroir,1171,MIRROR,(un) miroir,miratoriu,128
+Gauchat-1925-480-129_unebobine,(une) bobine,,,(une) bobine,spola,129
+Gauchat-1925-480-130_unecouronne,(une) couronne,1943,CROWN (OF HEAD),(une) couronne,corona,130
+Gauchat-1925-480-131_jacheterai,j‘achèterai,,ACCEPT,j‘achèterai,accaptare + habeo,131
+Gauchat-1925-480-132_aussi,aussi,,,aussi,alesic + bene,132
+Gauchat-1925-480-133_despantalons,„des“ pantalons,809,TROUSERS,„des“ pantalons,calceas,133
+Gauchat-1925-480-134_uneceinture,(une) ceinture,772,BELT,(une) ceinture,cinctura,134
+Gauchat-1925-480-135_delatoile,(de la) toile,916,LINEN,(de la) toile,tela,135
+Gauchat-1925-480-136_delasoie,(de la) soie,1641,SILK,(de la) soie,seta,136
+Gauchat-1925-480-137_delalaine,(de la) laine,964,WOOL,(de la) laine,lana,137
+Gauchat-1925-480-138_ducuir,(du) cuir,629,LEATHER,(du) cuir,coriu,138
+Gauchat-1925-480-139_cedrapdelit,ce drap de lit,,,ce drap de lit,linteolu,139
+Gauchat-1925-480-140_estmeilleur,est meilleur,,,est meilleur,meliore,140
+Gauchat-1925-480-141_quelautre,que l’autre,197,OTHER,que l’autre,alteru,141
+Gauchat-1925-480-142_ilaune,il a une,2152,THERE IS OR THERE ARE,il a une,habet,142
+Gauchat-1925-480-143_largeur,largeur,2536,BREADTH,largeur,largu + ore,143
+Gauchat-1925-480-144_double,double,,,double,dupla,144
+Gauchat-1925-480-145_lacouture,la couture,,,la couture,co(n)sutura,145
+Gauchat-1925-480-146_estdroite,est droite,1404,STRAIGHT,est droite,directa,146
+Gauchat-1925-480-147_lechar,le char,2549,VEHICLE,le char,carru,147
+Gauchat-1925-480-148_estleger,est léger,1052,LIGHT (WEIGHT),est léger,leviariu,148
+Gauchat-1925-480-149_lachaine,la chaîne,1627,CHAIN,la chaîne,catena,149
+Gauchat-1925-480-150_estlegere,(est) légère,1052,LIGHT (WEIGHT),(est) légère,leviaria,150
+Gauchat-1925-480-151_lacorde,la corde,1218,ROPE,la corde,corda,151
+Gauchat-1925-480-152_neuve,neuve,1231,NEW,neuve,nova,152
+Gauchat-1925-480-153_estmeilleure,est meilleure,,,est meilleure,meliore,153
+Gauchat-1925-480-154_lecercle,le cercle,1467,CIRCLE,le cercle,circulu,154
+Gauchat-1925-480-155_estrond,est rond,1395,ROUND,est rond,rotundu,155
+Gauchat-1925-480-156_laroue,la roue,710,WHEEL,la roue,rota,156
+Gauchat-1925-480-157_estronde,(est) ronde,1395,ROUND,(est) ronde,rotunda,157
+Gauchat-1925-480-158_ilfaudra,il faudra,971,MUST,il faudra,fallere + habet,158
+Gauchat-1925-480-159_bientot,bientôt,703,SOON,bientôt,bene tostu,159
+Gauchat-1925-480-160_tondre,tondre,190,MOW,tondre,tondere,160
+Gauchat-1925-480-161_lesbrebis,les brebis,1331,SHEEP,les brebis,fetas,161
+Gauchat-1925-480-162_racerer,racérer,,,racérer,reaciariare,162
+Gauchat-1925-480-163_lahache,la hache,677,AXE,la hache,happia (+ itta),163
+Gauchat-1925-480-164_battreengrange,battre en grange,,,battre en grange,excutere,164
+Gauchat-1925-480-165_moudre,moudre,1033,GRIND,moudre,molere,165
+Gauchat-1925-480-166_leble,le blé,605,GRAIN,le blé,blatu,166
+Gauchat-1925-480-167_garder,garder,1477,KEEP,garder,wardare,167
+Gauchat-1925-480-168_lesbetes,les bêtes,631,LIVESTOCK,les bêtes,bestias,168
+Gauchat-1925-480-169_tourner,tourner,1588,TURN,tourner,(re)virare,169
+Gauchat-1925-480-170_laterre,la terre,1228,EARTH (SOIL),la terre,terra,170
+Gauchat-1925-480-171_semer,semer,748,SOW SEEDS,semer,seminare,171
+Gauchat-1925-480-172_lechanvre,(le) chanvre,,,(le) chanvre,cannapu,172
+Gauchat-1925-480-173_lesfeves,les fèves,,,les fèves,fabas,173
+Gauchat-1925-480-174_lecheval,le cheval,615,HORSE,le cheval,caballu,174
+Gauchat-1925-480-175_estvendu,est vendu,,,est vendu,vendutu,175
+Gauchat-1925-480-176_lavache,la vache,1007,COW,la vache,vacca,176
+Gauchat-1925-480-177_estvendue,(est) vendue,,,(est) vendue,venduta,177
+Gauchat-1925-480-178_leschevres,les chèvres,1502,GOAT,les chèvres,capras,178
+Gauchat-1925-480-179_sontvendues,(sont) vendues,,,(sont) vendues,vendutas,179
+Gauchat-1925-480-180_ilestcher,il est cher,1426,EXPENSIVE,il est cher,caru,180
+Gauchat-1925-480-181_elleestchere,(elle est) chère,1426,EXPENSIVE,(elle est) chère,cara,181
+Gauchat-1925-480-182_ellessontcheres,(elles sont) chères,1426,EXPENSIVE,(elles sont) chères,caras,182
+Gauchat-1925-480-183_leporc,le porc,1337,PIG,le porc,porcu,183
+Gauchat-1925-480-184_estgros,est gros,2449,FAT (OF MEAT AND FOOD),est gros,grossu,184
+Gauchat-1925-480-185_latruie,la truie,1351,SOW (FEMALE PIG),la truie,troia,185
+Gauchat-1925-480-186_estgrosse,(est) grosse,2449,FAT (OF MEAT AND FOOD),(est) grosse,grossa,186
+Gauchat-1925-480-187_lefoin,le foin,342,HAY,le foin,fenu,187
+Gauchat-1925-480-188_estsec,est sec,1398,DRY,est sec,siccu,188
+Gauchat-1925-480-189_lherbe,l’herbe,606,GRASS,l’herbe,herba,189
+Gauchat-1925-480-190_estseche,(est) sèche,1398,DRY,(est) sèche,sicca,190
+Gauchat-1925-480-191_queveuxtu,Que veux-tu?,,,Que veux-tu?,quid voles tu,191
+Gauchat-1925-480-192_jevoudrais,je voudrais,1784,WANT,je voudrais,volere + habebam,192
+Gauchat-1925-480-193_dusel,du sel,1274,SALT,du sel,sal,193
+Gauchat-1925-480-194_dupoivre,du poivre,1385,PEPPER,du poivre,piper,194
+Gauchat-1925-480-195_unefeuille,une feuille,628,LEAF,une feuille,folia,195
+Gauchat-1925-480-196_dechou,de chou,,,de chou,caule,196
+Gauchat-1925-480-197_unegerbe,une gerbe,,,une gerbe,garba,197
+Gauchat-1925-480-198_depaille,de paille,,,de paille,palea,198
+Gauchat-1925-480-199_unsac,un sac,,,un sac,saccu,199
+Gauchat-1925-480-200_davoine,d’avoine,60,OAT,d’avoine,avena,200
+Gauchat-1925-480-201_defarine,de farine,1594,FLOUR,de farine,farina,201
+Gauchat-1925-480-202_unebrassee,une brassée,,,une brassée,braciata,202
+Gauchat-1925-480-203_desbrassees,(des) brassées,,,(des) brassées,braciatas,203
+Gauchat-1925-480-204_debois,de bois,1803,WOOD,de bois,boscu,204
+Gauchat-1925-480-205_unepelletee,(une) pelletée,,,(une) pelletée,palata,205
+Gauchat-1925-480-206_despelletees,(des) pelletées,,,(des) pelletées,palatas,206
+Gauchat-1925-480-207_decharbon,de charbon,,,de charbon,carbone,207
+Gauchat-1925-480-208_unepoignee,une poignée,,,une poignée,pugnata,208
+Gauchat-1925-480-209_despoignees,(des) poignées,,,(des) poignées,pugnatas,209
+Gauchat-1925-480-210_decendres,de cendres,646,ASH,de cendres,cineres,210
+Gauchat-1925-480-211_javais,j’avais,773,HAVE,j’avais,habebam,211
+Gauchat-1925-480-212_faim,faim,1864,HUNGER,faim,fame,212
+Gauchat-1925-480-213_etsoif,et soif,848,THIRST,et soif,site,213
+Gauchat-1925-480-214_jaimange,j’ai mangé,1336,EAT,j’ai mangé,manducatu,214
+Gauchat-1925-480-215_dupain,du pain,1368,BREAD,du pain,pane,215
+Gauchat-1925-480-216_dumiel,(du) miel,942,HONEY,(du) miel,mel,216
+Gauchat-1925-480-217_unuf,un œuf,744,EGG,un œuf,ovu,217
+Gauchat-1925-480-218_cru,cru,1959,RAW,cru,crudu,218
+Gauchat-1925-480-219_delaviande,(de la) viande,634,MEAT,(de la) viande,carne,219
+Gauchat-1925-480-220_crue,crue,1959,RAW,crue,cruda,220
+Gauchat-1925-480-221_dufromage,(du) fromage,1569,CHEESE,(du) fromage,formaticu,221
+Gauchat-1925-480-222_duserac,(du) „sérac“,,,(du) „sérac“,seraceu,222
+Gauchat-1925-480-223_lamoitie,la moitié,816,HALF,la moitié,medietate,223
+Gauchat-1925-480-224_dunepomme,d’une pomme,1320,APPLE,d’une pomme,poma,224
+Gauchat-1925-480-225_cuite,cuite,269,COOKED,cuite,cocta,225
+Gauchat-1925-480-226_lapommeestmangee,(la pomme est) mangée,1336,EAT,(la pomme est) mangée,manducata,226
+Gauchat-1925-480-227_lesdeuxmoities,les deux moitiés,,,les deux moitiés,duas medietates,227
+Gauchat-1925-480-228_sontmangees,(sont) mangées,1336,EAT,(sont) mangées,manducatas,228
+Gauchat-1925-480-229_ilmafallu,il m’a fallu,,,il m’a fallu,fallutu,229
+Gauchat-1925-480-230_boire,boire,1401,DRINK,boire,bibere,230
+Gauchat-1925-480-231_dulait,du lait,635,MILK,du lait,lacticellu,231
+Gauchat-1925-480-232_dupetitlait,du petit-lait,,,du petit-lait,lactata,232
+Gauchat-1925-480-233_levin,le vin,1524,WINE,le vin,vinu,233
+Gauchat-1925-480-234_estclair,est clair,250,LIGHT (COLOR),est clair,claru,234
+Gauchat-1925-480-235_tiede,tiède,1232,WARM,tiède,tepidu,235
+Gauchat-1925-480-236_leau,l’eau,948,WATER,l’eau,aqua,236
+Gauchat-1925-480-237_estclaire,(est) claire,250,LIGHT (COLOR),(est) claire,clara,237
+Gauchat-1925-480-238_tiede,tiède,1232,WARM,tiède,tepida,238
+Gauchat-1925-480-239_leverre,le verre,604,GLASS,le verre,vitru,239
+Gauchat-1925-480-240_estplein,est plein,1429,FULL,est plein,plenu,240
+Gauchat-1925-480-241_lacuiller,la cuiller,1378,SPOON,la cuiller,cochleare,241
+Gauchat-1925-480-242_estpleine,(est) pleine,1429,FULL,(est) pleine,plena,242
+Gauchat-1925-480-243_ilabu,il a bu,1401,DRINK,il a bu,bibutu,243
+Gauchat-1925-480-244_unecuillereedescuillerees,"(une) cuillerée, (des) cuillerées",,,"(une) cuillerée, (des) cuillerées","cochlearata, -atas",244
+Gauchat-1925-480-245_depoison,de poison,655,POISON,de poison,potione,245
+Gauchat-1925-480-246_ilmeurt,il meurt,157,DYE,il meurt,morit,246
+Gauchat-1925-480-247_cefruit,ce fruit,1507,FRUIT,ce fruit,"fructu, fructa",247
+Gauchat-1925-480-248_estrouge,est rouge,156,RED,est rouge,rubeu,248
+Gauchat-1925-480-249_mur,mûr,178,RIPE,mûr,maturu,249
+Gauchat-1925-480-250_doux,doux,1856,SOFT,doux,dulce,250
+Gauchat-1925-480-251_laprune,la prune,,,la prune,pruma,251
+Gauchat-1925-480-252_estmure,(est) mûre,178,RIPE,(est) mûre,matura,252
+Gauchat-1925-480-253_douce,douce,717,SWEET,douce,dulce + a,253
+Gauchat-1925-480-254_notre,notre,780,OUR,notre,nostru,254
+Gauchat-1925-480-255_pommier,pommier,,,pommier,pomariu,255
+Gauchat-1925-480-256_perd,perd,1660,LOSE,perd,perdit,256
+Gauchat-1925-480-257_saseve,sa sève,,,sa sève,sapa,257
+Gauchat-1925-480-258_ilnepeut,il ne peut,,,il ne peut,potet,258
+Gauchat-1925-480-259_plus,plus,1992,MORE,plus,plus,259
+Gauchat-1925-480-260_croitre,croître,479,GROW,croître,crescere,260
+Gauchat-1925-480-261_legland,le gland,968,ACORN,le gland,glande,261
+Gauchat-1925-480-262_croit,croît,1890,BELIEVE,croît,crescit,262
+Gauchat-1925-480-263_sur,sur,1741,ABOVE,sur,su(r)su,263
+Gauchat-1925-480-264_lechene,le chêne,644,OAK,le chêne,cassinu,264
+Gauchat-1925-480-265_lesaule,le saule,,,le saule,salice,265
+Gauchat-1925-480-266_amoins,a moins,,,a moins,minus,266
+Gauchat-1925-480-267_denuds,de nœuds,,,de nœuds,nodos,267
+Gauchat-1925-480-268_quelehetre,que le hêtre,,,que le hêtre,fagu,268
+Gauchat-1925-480-269_voila,voilà,,,voilà,*- ,269
+Gauchat-1925-480-270_uneplante,une plante,653,PLANT (VEGETATION),une plante,planta,270
+Gauchat-1925-480-271_sans,sans,1478,WITHOUT,sans,sine,271
+Gauchat-1925-480-272_epines,épines,,,épines,spinas,272
+Gauchat-1925-480-273_onvient,on vient,,,on vient,homo venit,273
+Gauchat-1925-480-274_mappeler,m’appeler,,,m’appeler,appellare (quiriare),274
+Gauchat-1925-480-275_pour,pour,,,pour,pro,275
+Gauchat-1925-480-276_manger,manger,1336,EAT,manger,manducare,276
+Gauchat-1925-480-277_chasser,chasser,1435,HUNT,chasser,captiare,277
+Gauchat-1925-480-278_unchien,un chien,2009,DOG,un chien,cane,278
+Gauchat-1925-480-279_prendre,prendre,1749,TAKE,prendre,pre(he)ndere,279
+Gauchat-1925-480-280_unvoleur,un voleur,1160,THIEF,un voleur,latro,280
+Gauchat-1925-480-281_ilestpriselleestprise,"(il est) pris, (elle est) prise",,,"(il est) pris, (elle est) prise","pre(hen)su, -e(hen)sa",281
+Gauchat-1925-480-282_lemeunier,le meunier,,,le meunier,molinariu,282
+Gauchat-1925-480-283_moud,moud,,,moud,molit,283
+Gauchat-1925-480-284_oncroit,on croit,1890,BELIEVE,on croit,credit,284
+Gauchat-1925-480-285_quilestriche,(qu’il est) riche,712,RICH,(qu’il est) riche,riccu,285
+Gauchat-1925-480-286_ilafait,il a fait,,,il a fait,factu,286
+Gauchat-1925-480-287_uneperte,une perte,,,une perte,perdita,287
+Gauchat-1925-480-288_safemme,sa femme,1199,WIFE,sa femme,femina,288
+Gauchat-1925-480-289_estriche,est riche,712,RICH,est riche,ricca,289
+Gauchat-1925-480-290_ilsont,ils ont,,,ils ont,habent,290
+Gauchat-1925-480-291_unbeau,un beau,1427,BEAUTIFUL,un beau,bellu,291
+Gauchat-1925-480-292_jardin,jardin,586,GARDEN,jardin,co(ho)rtile,292
+Gauchat-1925-480-293_unebelle,une belle,2410,GOOD-LOOKING,une belle,bella,293
+Gauchat-1925-480-294_vigne,vigne,343,VINE,vigne,vinea,294
+Gauchat-1925-480-295_ilspeuvent,ils peuvent,,,ils peuvent,potunt,295
+Gauchat-1925-480-296_payer,payer,718,PAY,payer,pacare,296
+Gauchat-1925-480-297_lafille,la fille,1357,DAUGHTER,la fille,filia,297
+Gauchat-1925-480-298_demasur,de ma sœur,1263,SISTER,de ma sœur,soror,298
+Gauchat-1925-480-299_chante,chante,1261,SING,chante,cantat,299
+Gauchat-1925-480-300_nien,nien,,,nien,bene,300
+Gauchat-1925-480-301_tuchantes,tu chantes,1261,SING,tu chantes,cantas,301
+Gauchat-1925-480-302_mieuxquelle,mieux qu‘elle,,,mieux qu‘elle,"melius, illæi",302
+Gauchat-1925-480-303_cesgens,ces gens,,,ces gens,gentes,303
+Gauchat-1925-480-304_ontchante,ont chanté,1261,SING,ont chanté,cantatu,304
+Gauchat-1925-480-305_unechanson,(une) chanson,1096,SONG,(une) chanson,cantione,305
+Gauchat-1925-480-306_elleaete,elle a été,,,elle a été,statu habutu,306
+Gauchat-1925-480-307_malchantee,mal chantée,,,mal chantée,male cantata,307
+Gauchat-1925-480-308_ellesontetemalchantees,elles ont été (mal) chantées,,,elles ont été (mal) chantées,cantatas,308
+Gauchat-1925-480-309_ilsdevraient,(ils) devraient,,,(ils) devraient,debere + (hab)ebant,309
+Gauchat-1925-480-310_tous,tous,98,ALL,tous,totti,310
+Gauchat-1925-480-311_setaire,se taire,48,BE SILENT,se taire,qu(i)etiare,311
+Gauchat-1925-480-312_toutes,toutes,,,toutes,tottas,312
+Gauchat-1925-480-313_cesfemmes,ces femmes,962,WOMAN,ces femmes,feminas,313
+Gauchat-1925-480-314_nesaventpas,ne savent pas,,,ne savent pas,sapunt,314
+Gauchat-1925-480-315_chanter,chanter,1261,SING,chanter,cantare,315
+Gauchat-1925-480-316_onnepeutpas,on ne peut pas,,,on ne peut pas,potet,316
+Gauchat-1925-480-317_toutsavoir,tout savoir,1410,KNOW (SOMETHING),tout savoir,sapere,317
+Gauchat-1925-480-318_celaneprouve,cela ne prouve,,,cela ne prouve,probat,318
+Gauchat-1925-480-319_rien,rien,3198,NOTHING OR ZERO,rien,rem,319
+Gauchat-1925-480-320_ondefend,on défend,,,on défend,defendit,320
+Gauchat-1925-480-321_auxenfants,aux enfants,2099,CHILD,aux enfants,infantes,321
+Gauchat-1925-480-322_dejurer,(de) jurer,1939,SWEAR,(de) jurer,jurare,322
+Gauchat-1925-480-323_depleurer,(de) pleurer,1839,CRY,(de) pleurer,plorare,323
+Gauchat-1925-480-324_desauter,(de) sauter,1829,JUMP,(de) sauter,saltare,324
+Gauchat-1925-480-325_cettefillette,cette fillette,,,cette fillette,filia + itta,325
+Gauchat-1925-480-326_afait,a fait,,,a fait,factu,326
+Gauchat-1925-480-327_sapriere,sa prière,,,sa prière,precaria,327
+Gauchat-1925-480-328_elleasommeil,elle a sommeil,,,elle a sommeil,somnu,328
+Gauchat-1925-480-329_elledort,elle dort,,,elle dort,dormit,329
+Gauchat-1925-480-330_deja,déjà,2576,ALREADY,déjà,jam,330
+Gauchat-1925-480-331_quand,quand,1238,WHEN,quand,quando,331
+Gauchat-1925-480-332_vousvenez,vous venez,1446,COME,vous venez,venitis,332
+Gauchat-1925-480-333_vouscoucher,vous coucher,215,LIE DOWN,vous coucher,collocare,333
+Gauchat-1925-480-334_monfrere,mon frère,1262,BROTHER,mon frère,fratre,334
+Gauchat-1925-480-335_sennuie,s’ennuie,,,s’ennuie,inodat,335
+Gauchat-1925-480-336_toutseul,tout seul,1964,ALONE,tout seul,solittu,336
+Gauchat-1925-480-337_vousvoudriez,vous voudriez,,,vous voudriez,volere + (hab)ebatis,337
+Gauchat-1925-480-338_quejenele,que je ne le,,,que je ne le,illu,338
+Gauchat-1925-480-339_sachepas,sache pas,,,sache pas,sapiam,339
+Gauchat-1925-480-340_jepleure,je pleure,1839,CRY,je pleure,ploro,340
+Gauchat-1925-480-341_doucement,doucement,,,doucement,-mente,341
+Gauchat-1925-480-342_pourquonnentendepas,pour qu’on n’entende pas,,,pour qu’on n’entende pas,homo audiat,342
+Gauchat-1925-480-343_jesais,(je) sais,1410,KNOW (SOMETHING),(je) sais,sa(p)io,343
+Gauchat-1925-480-344_unpeu,un peu,1241,SOME,un peu,paucu,344
+Gauchat-1925-480-345_lire,lire,724,READ,lire,legere,345
+Gauchat-1925-480-346_jeneledis,je ne le dis,,,je ne le dis,dico,346
+Gauchat-1925-480-347_quaeux,qu’à eux,,,qu’à eux,illoru,347
+Gauchat-1925-480-348_ilfrappe,il frappe,,,il frappe,ferit,348
+Gauchat-1925-480-349_uneheure,une heure,1353,HOUR,une heure,hora,349
+Gauchat-1925-480-350_pasdefumee,pas de fumée,,,pas de fumée,fumaria,350
+Gauchat-1925-480-351_sansfeu,sans feu,221,FIRE,sans feu,focu,351
+Gauchat-1925-480-352_laflamme,la flamme,889,FLAME,la flamme,flamma,352
+Gauchat-1925-480-353_estchaude,est chaude,1286,HOT,est chaude,cal(i)da,353
+Gauchat-1925-480-354_levoisin,le voisin,1332,NEIGHBOUR,le voisin,vicinu,354
+Gauchat-1925-480-355_estarrive,est arrivé,,,est arrivé,adripatu,355
+Gauchat-1925-480-356_lavoisine,la voisine,,,la voisine,vicina,356
+Gauchat-1925-480-357_estarrivee,(est) arrivée,,,(est) arrivée,adripata,357
+Gauchat-1925-480-358_ilestvieuxelleestvieille,"(il est) vieux, (elle est) vieille",1229,OLD,"(il est) vieux, (elle est) vieille","veclu, -cla",358
+Gauchat-1925-480-359_laidlaide,"laid, laide",1548,UGLY,"laid, laide","putidu, -da",359
+Gauchat-1925-480-360_sourdsourde,"sourd, sourde",996,DEAF,"sourd, sourde","surdu, -da",360
+Gauchat-1925-480-361_pauvremetf,pauvre (m. et f.),1674,POOR,pauvre (m. et f.),"pauperu, -ra",361
+Gauchat-1925-480-362_fierfiere,"fier, fière",174,PROUD,"fier, fière","feru, -ra",362
+Gauchat-1925-480-363_dimanche,dimanche,1699,SUNDAY,dimanche,die dominica,363
+Gauchat-1925-480-364_lundi,lundi,1697,MONDAY,lundi,die lunæ,364
+Gauchat-1925-480-365_jeudi,jeudi,1693,THURSDAY,jeudi,die jovis,365
+Gauchat-1925-480-366_combien,combien,531,HOW MUCH,combien,waigaro,366
+Gauchat-1925-480-367_demonnaie,de monnaie,1559,MONEY,de monnaie,moneta,367
+Gauchat-1925-480-368_astu,as-tu,,,as-tu,ha(be)s tu,368
+Gauchat-1925-480-369_encore,encore,204,AGAIN,encore,anque ad hora,369
+Gauchat-1925-480-370_jenai,j’en ai,,,j’en ai,inde habeo,370
+Gauchat-1925-480-371_assez,assez,1881,ENOUGH,assez,prode,371
+Gauchat-1925-480-372_plusquetoi,plus que toi,,,plus que toi,magis,372
+Gauchat-1925-480-373_ayez,ayez,,,ayez,habeatis,373
+Gauchat-1925-480-374_pitie,pitié,1141,PITY,pitié,pietate,374
+Gauchat-1925-480-375_decetouvrier,de cet ouvrier,,,de cet ouvrier,operariu,375
+Gauchat-1925-480-376_ilnapaslasante,(il n’a pas) la santé,1364,HEALTHY,(il n’a pas) la santé,sanitate,376
+Gauchat-1925-480-377_quelle,quelle,,,quelle,quina,377
+Gauchat-1925-480-378_pauvrete,pauvreté,,,pauvreté,paupertate,378
+Gauchat-1925-480-379_ilveut,il veut,,,il veut,volet,379
+Gauchat-1925-480-380_changer,changer,1264,CHANGE,changer,cambiare,380
+Gauchat-1925-480-381_demetier,de métier,,,de métier,ministeriu,381
+Gauchat-1925-480-382_lasemaine,la semaine,1469,WEEK,la semaine,septimana,382
+Gauchat-1925-480-383_passee,passée,,,passée,passata,383
+Gauchat-1925-480-384_jemesuisfait,je me suis fait,,,je me suis fait,sum factu,384
+Gauchat-1925-480-385_uneentorse,une entorse,,,une entorse,intorsa,385
+Gauchat-1925-480-386_jaieu,j’ai eu,,,j’ai eu,habutu,386
+Gauchat-1925-480-387_lafievre,la fièvre,1534,FEVER,la fièvre,febre,387
+Gauchat-1925-480-388_lemedecin,le médecin,597,PHYSICIAN,le médecin,medicu,388
+Gauchat-1925-480-389_adu,a dû,,,a dû,debutu,389
+Gauchat-1925-480-390_venir,venir,1446,COME,venir,venire,390
+Gauchat-1925-480-391_ilmadonne,il m’a donné,,,il m’a donné,bajulatu,391
+Gauchat-1925-480-392_unepoudre,une poudre,3368,POWDER,une poudre,pulvere,392
+Gauchat-1925-480-393_blanche,blanche,1335,WHITE,blanche,blanca,393
+Gauchat-1925-480-394_jaune,jaune,1424,YELLOW,jaune,galbina,394
+Gauchat-1925-480-395_rouge,rouge,156,RED,rouge,rubea,395
+Gauchat-1925-480-396_verte,verte,1425,GREEN,verte,virida,396
+Gauchat-1925-480-397_jaipris,j’ai pris,,,j’ai pris,pre(hen)su,397
+Gauchat-1925-480-398_unegoutte,une goutte,2087,DROP (CLASSIFIER),une goutte,gutta,398
+Gauchat-1925-480-399_degentiane,de gentiane,,,de gentiane,gentiana,399
+Gauchat-1925-480-400_celamaaide,(cela m’a) aidé,,,(cela m’a) aidé,adjutatu,400
+Gauchat-1925-480-401_ameguerir,à me guérir,,,à me guérir,warire,401
+Gauchat-1925-480-402_maintenant,maintenant,1376,NOW,maintenant,ad hora,402
+Gauchat-1925-480-403_jesuisgueri,je suis guéri,,,je suis guéri,sum waritu,403
+Gauchat-1925-480-404_guerie,guérie,,,guérie,warita,404
+Gauchat-1925-480-405_ellessontgueries,(elles sont) guéries,,,(elles sont) guéries,waritas,405
+Gauchat-1925-480-406_ilamal,il a mal,,,il a mal,malu,406
+Gauchat-1925-480-407_aupied,au pied,1301,FOOT,au pied,pede,407
+Gauchat-1925-480-408_augenou,(au) genou,1371,KNEE,(au) genou,genuclu,408
+Gauchat-1925-480-409_aucoude,(au) coude,981,ELBOW,(au) coude,cubitu,409
+Gauchat-1925-480-410_audoigt,(au) doigt,1303,FINGER,(au) doigt,digitu,410
+Gauchat-1925-480-411_aupouce,(au) pouce,1781,THUMB,(au) pouce,pollice,411
+Gauchat-1925-480-412_aunez,(au) nez,1221,NOSE,(au) nez,nasu,412
+Gauchat-1925-480-413_auxdents,aux dents,,,aux dents,dentes,413
+Gauchat-1925-480-414_aucou,(au) cou,1333,NECK,(au) cou,collu,414
+Gauchat-1925-480-415_aucur,(au) cœur,1223,HEART,(au) cœur,cor,415
+Gauchat-1925-480-416_alacuisse,(à la) cuisse,800,THIGH,(à la) cuisse,coxa,416
+Gauchat-1925-480-417_aunecote,(à une) côté,,,(à une) côté,costa,417
+Gauchat-1925-480-418_aunil,à un œil,,,à un œil,oclu,418
+Gauchat-1925-480-419_auxyeux,aux yeux,,,aux yeux,oclos,419
+Gauchat-1925-480-420_alalangue,(à la) langue,1205,TONGUE,(à la) langue,lingua,420
+Gauchat-1925-480-421_alatete,(à la) tête,1256,HEAD,(à la) tête,testa,421
+Gauchat-1925-480-422_aunongle,(à un) ongle,1258,FINGERNAIL,(à un) ongle,ungla,422
+Gauchat-1925-480-423_auneoreille,(à une) oreille,1247,EAR,(à une) oreille,"auricla, -ucla",423
+Gauchat-1925-480-424_ilesttombe,il est tombé,,,il est tombé,"cadutu, -ectu",424
+Gauchat-1925-480-425_elleesttombee,(elle est) tombée,,,(elle est) tombée,"caduta, -ecta",425
+Gauchat-1925-480-426_sursonderriere,sur son derrière,,,sur son derrière,culu,426
+Gauchat-1925-480-427_iltombe,il tombe,1773,GRAVE,il tombe,cadit,427
+Gauchat-1925-480-428_toujours,toujours,1676,ALWAYS,toujours,ad id ipsu,428
+Gauchat-1925-480-429_ilalebras,il a le bras,,,il a le bras,brachiu,429
+Gauchat-1925-480-430_nu,nu,590,NAKED,nu,nudu,430
+Gauchat-1925-480-431_lamain,la main,1277,HAND,la main,manu,431
+Gauchat-1925-480-432_nue,nue,1489,CLOUD,nue,nuda,432
+Gauchat-1925-480-433_soncorps,son corps,1480,BODY,son corps,corpus,433
+Gauchat-1925-480-434_estmaigre,est maigre,2219,LEAN (MEAT),est maigre,macru,434
+Gauchat-1925-480-435_lapeau,la peau,763,SKIN,la peau,pelle,435
+Gauchat-1925-480-436_estepaisse,est épaisse,,,est épaisse,spissa,436
+Gauchat-1925-480-437_los,l’os,1394,BONE,l’os,ossu,437
+Gauchat-1925-480-438_estepais,(est) épais,1244,THICK,(est) épais,spissu,438
+Gauchat-1925-480-439_ilestdroit,il est droit,,,il est droit,directu,439
+Gauchat-1925-480-440_jetue,je tue,1417,KILL,je tue,tuto,440
+Gauchat-1925-480-441_unemouche,une mouche,1504,FLY (INSECT),une mouche,musca,441
+Gauchat-1925-480-442_unearaignee,(une) araignée,843,SPIDER,(une) araignée,aranea,442
+Gauchat-1925-480-443_unefourmi,une fourmi,587,ANT,une fourmi,"formicu, -a",443
+Gauchat-1925-480-444_uneguepe,(une) guêpe,1517,WASP,(une) guêpe,wespa,444
+Gauchat-1925-480-445_unepuce,(une) puce,232,FLEA,(une) puce,pullice,445
+Gauchat-1925-480-446_unpou,(un) pou,1392,LOUSE,(un) pou,peduclu,446
+Gauchat-1925-480-447_lechasseur,le chasseur,,,le chasseur,captiatore,447
+Gauchat-1925-480-448_avu,a vu,,,a vu,vidutu,448
+Gauchat-1925-480-449_unlievre,un lièvre,,,un lièvre,lepore,449
+Gauchat-1925-480-450_unloup,(un) loup,522,WOLF,(un) loup,lupu,450
+Gauchat-1925-480-451_unsanglier,(un) sanglier,1348,BOAR,(un) sanglier,singulare,451
+Gauchat-1925-480-452_unaigle,(un) aigle,1905,EAGLE,(un) aigle,aquila,452
+Gauchat-1925-480-453_unbel,un bel,,,un bel,bellu,453
+Gauchat-1925-480-454_oiseauvert,oiseau vert,,,oiseau vert,aucellu viride,454
+Gauchat-1925-480-455_loiseau,l‘oiseau,,,l‘oiseau,aucellu,455
+Gauchat-1925-480-456_fait,fait,,,fait,facit,456
+Gauchat-1925-480-457_sonnid,son nid,,,son nid,nidu,457
+Gauchat-1925-480-458_danslarbre,dans l’arbre,,,dans l’arbre,arbore,458
+Gauchat-1925-480-459_lepoussin,le poussin,,,le poussin,pullicinu,459
+Gauchat-1925-480-460_adesailes,a des ailes,,,a des ailes,alas,460
+Gauchat-1925-480-461_desplumes,des plumes,,,des plumes,plumas,461
+Gauchat-1925-480-462_lechat,le chat,1208,CAT,le chat,cattu,462
+Gauchat-1925-480-463_alepoil,a le poil,,,a le poil,pilu,463
+Gauchat-1925-480-464_blanc,blanc,1335,WHITE,blanc,blancu,464
+Gauchat-1925-480-465_laqueue,la queue,1220,TAIL,la queue,coda,465
+Gauchat-1925-480-466_jaune,jaune,1424,YELLOW,jaune,galbina,466
+Gauchat-1925-480-467_unune,"un, une",1493,ONE,"un, une","unu, una",467
+Gauchat-1925-480-468_deux,deux,1498,TWO,deux,"duo, duas",468
+Gauchat-1925-480-469_trois,trois,492,THREE,trois,tres,469
+Gauchat-1925-480-470_quatre,quatre,1500,FOUR,quatre,quatt(u)or,470
+Gauchat-1925-480-471_cinq,cinq,493,FIVE,cinq,cinque,471
+Gauchat-1925-480-472_six,six,1703,SIX,six,sex,472
+Gauchat-1925-480-473_sept,sept,1704,SEVEN,sept,septe,473
+Gauchat-1925-480-474_huit,huit,1705,EIGHT,huit,octu,474
+Gauchat-1925-480-475_neuf,neuf,1483,NINE,neuf,nove,475
+Gauchat-1925-480-476_dix,dix,1515,TEN,dix,dece,476
+Gauchat-1925-480-477_onze,onze,1706,ELEVEN,onze,undeci,477
+Gauchat-1925-480-478_douze,douze,1707,TWELVE,douze,d(u)odeci,478
+Gauchat-1925-480-479_vingt,vingt,1710,TWENTY,vingt,viginti,479
+Gauchat-1925-480-480_cent,cent,1634,HUNDRED,cent,centu,480
