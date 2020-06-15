@@ -29,25 +29,25 @@ class Dataset(BaseDataset):
 
     def cmd_makecldf(self, args):
 
-        data = self.raw_dir.read_csv('ipa.tsv', delimiter='\t')
+        data = self.raw_dir.read_csv('graphemes.tsv', delimiter='\t')
         args.writer.add_sources()
         
         concepts = {}
-        for concept in self.concepts:
+        for concept in self.conceptlists[0].concepts.values():
+            idx = '{0}_{1}'.format(
+                        concept.id,
+                        slug(concept.attributes['french']))
             args.writer.add_concept(
-                    ID='{0}_{1}'.format(
-                        concept['ID'],
-                        slug(concept['FRENCH'])),
-                    Number=concept['NUMBER'],
-                    Name=concept['FRENCH'],
-                    French_Gloss=concept['FRENCH'],
-                    Latin_Gloss=concept['LATIN'],
-                    Concepticon_ID=concept['CONCEPTICON_ID'],
-                    Concepticon_Gloss=concept['CONCEPTICON_GLOSS']
+                    ID=idx,
+                    Number=concept.number,
+                    Name=concept.attributes['french'],
+                    French_Gloss=concept.attributes['french'],
+                    Latin_Gloss=concept.attributes['latin'],
+                    Concepticon_ID=concept.concepticon_id,
+                    Concepticon_Gloss=concept.concepticon_gloss
                     )
-            concepts[concept['NUMBER']] = '{0}_{1}'.format(
-                    concept["ID"],
-                    slug(concept['FRENCH']))
+            concepts[concept.number] = idx
+            
         languages = args.writer.add_languages(
                 id_factory='Number')
 
