@@ -28,6 +28,7 @@ class Dataset(BaseDataset):
     language_class = CustomLanguage
 
     def cmd_makecldf(self, args):
+        args.writer.add_sources()
 
         data = self.raw_dir.read_csv('graphemes.tsv', delimiter='\t')
         args.writer.add_sources()

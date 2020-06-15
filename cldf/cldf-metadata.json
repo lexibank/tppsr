@@ -17,19 +17,19 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr/",
-            "dc:created": "df5cef9"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "CLTS",
-            "rdf:about": "https://github.com/cldf-clts/clts/",
-            "dc:created": "v1.4"
+            "dc:created": "6d36ec7"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "dc:created": "v2.3.0-107-g79157a1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "CLTS",
+            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "dc:created": "v1.4"
         },
         {
             "rdf:type": "prov:Entity",
