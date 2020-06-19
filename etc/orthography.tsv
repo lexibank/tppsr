@@ -1,362 +1,786 @@
 Grapheme	IPAX	IPA	NOTE
+-	NULL	NULL
+I		NULL
+Í̱è̄̃		iɛ̃
 _	_	+	
-•	.	+	
-a̩ͦ̄	ɑ̝́ː	ˈ/ɑː	
-aͦ̄	ɒ̝ː	ɒː	
-a̱ͦ̃	ɒ̝͉̃	ɒ	
-a̱ͦ	ɒ̝͉	ɒ	
-a̩ͦ̃	ɑ̝̃́	ɑ	
-a̩ͦ	ɑ̝́	ɑ	
-aͦ̃	ɒ̝̃	ɑ	
-aͦ̆	ɒ̝̆	ɒ	
-aͦ	ɒ̝	ɒ	
-a̩ͤ̄	ǽː	ˈ/æː	
-aͤ̄	æː	æː	
-a̱̩ͤ	ǽ͉	æ	
-a̱ͤ	æ͉	æ	
-a̩ͤ̆	æ̆́	æ	
-a̩ͤ	ǽ	ˈ/æ	
-aͤ͋	æ͋	ˈ/æ	
-aͤ̃	æ̃	æ ∼	
-aͤ̆	æ̆	æ	
-aͤ	æ	æ	
-ā̩̃	ã̠́ː	aː ∼	
-ā̩̀	áː	ˈ/aː	
-ā̩́	ɑ́ː	ˈ/ɑː	
-ā̩	á̠ː	ˈ/aː	
-à̄̃	ãː	aː ∼	
-ā̃	ã̠ː	aː ∼	
+a	a̠	a	
+à		a
+à	a	a	
+à̃	ã	ã	
+à̄̃	ãː	ãː	
+à̱		a
+à̱	a	a
+à͜è̱	àè̱	aɛ
+à͜ė	àė	aə
+á		ɑ
+á	ɑ	ɑ	
+á̃	a	ã
+á̱		ɑ
+ã		ã
+ã	ã̠	ã	
+ã̱		ã
+ã͜ẽ̱ĩ̱	ãẽ̱ĩ̱	ãẽ ɪ̃
+ā	a̠ː	aː	
+āo̱͜è	āo̱è	aːo ɛ
+āo̱͜è̱	āo̱è̱	aː oɛ
 ā̀	aː	aː	
 ā́	ɑː	ɑː	
-ā	a̠ː	aː	
-a̱̩	á̠͉	a	
-à̩̃	ã́	a ∼	
-ă̩̇	ɐ̆́	ɐ	
+ā̃	ã̠ː	ãː	
+ā͜è	āè	aːɛ
+ā͜è̱	āè̱	aːɛ
+ā͜é	āé	aːe
+ā͜é̱	āé̱	aːe
+ā͜ò̱	āò̱	aːɔ
+ă		a
+ă	ă̠	a	
+ăyă͜ó̱	ăyăó̱	a j ao
+ằ	ă	a	
+ằ͜ĭ̀	ằĭ̀	aɪ
+ắ	ɑ̆	ɑ	
+ă̱		a
+ă͜è	ăè	aɛ
+ă͜è̱	ăè̱	aɛ
+ă͜é̱	ăé̱	ae
+ă͜ĕ̀	ăĕ̀	aɛ
+ă͜ĕ́	ăĕ́	ae
+ă͜ḕ̩	ăḕ̩	aɛː
+ă͜e̱	ăe̱	ae
+ă͜é̱	ăé̱	ae
+ă͜eͥ	ăeͥ	ae
+ă͜i̱	ăi̱	ai
+ă͜ó	ăó	ao
+ă͜ó̱	ăó̱	ao
+ă͜ŏ́	ăŏ́	ao
+ă͜ó̱	ăó̱	ao
+ă͜ʋ̆̀	ăʋ̆̀	aʊ
+ă͜ʋͦ	ăʋͦ	au
+ă͜ʋͦ̆	ăʋͦ̆	au
+ă̱͜ĕ̀	ă̱ĕ̀	aɛ
+ȧ		ɐ
+ȧ	ɐ	ɐ	
+ȧ̱		ɐ
+a̩		ˈ/a
+a̩	á̠	ˈ/a	
+à̩	á	ˈ/a	
+à̩̃	ã́	ã	
+á̩	ɑ́	ˈ/ɑ	
+ã̩	ã̠́	ã	
+ā̩	á̠ː	ˈ/aː	
+ā̩̀	áː	ˈ/aː	
+ā̩́	ɑ́ː	ˈ/ɑː	
+ā̩̃	ã̠́ː	ãː	
+ă̩	ắ̠	a	
 ằ̩	ắ	a	
-ã̱	ã̠͉	a	
 ắ̩	ɑ̆́	ɑ	
-ă̱	ă̠͉	a	
-ã̩	ã̠́	a ∼	
-ȧ̱	ɐ͉	ɐ	
+ă̩̇	ɐ̆́	ɐ	
+ă̩͜è	ă̩è	aɛ
+ȧ̩	ɐ́	ˈ/ɐ	
+a̩̱		a
+a̩̱ͤ͜ó	a̩̱ͤó	ao
+a̩͜è	a̩è	aɛ
+a̩͜é	a̩é	ae
+a̩͜ò	a̩ò	aɔ
+a̩͜ó	a̩ó	ao
+a̩͜ó̱	a̩ó̱	ao
+a̩͜ṑ	a̩ṑ	aɔː
+a̩ͤ	ǽ	ˈ/æ	
+a̩ͤ̄	ǽː	ˈ/æː	
+a̩ͤ̆	æ̆́	æ	
+a̩ͤ͜ó	a̩ͤó	æo
+a̩ͤ͜ŏ́	a̩ͤŏ́	æo
+a̩ͦ	ɑ̝́	ɑ	
+a̩ͦ̃	ɑ̝̃́	ɑ	
+a̩ͦ̄	ɑ̝́ː	ˈ/ɑː	
+a̱	a̠͉	a	
+a̱ó͜ʋ̱	a̱óʋ̱	a ou
 à̱	a͉	a	
 á̱	ɑ͉	ɑ	
-ă̩	ắ̠	a	
-ȧ̩	ɐ́	ˈ/ɐ	
-à̩	á	ˈ/a	
-á̩	ɑ́	ˈ/ɑ	
-a̱	a̠͉	a	
-a̩	á̠	ˈ/a	
-à̃	ã	a ∼	
-ằ	ă	a	
-ắ	ɑ̆	ɑ	
-ã	ã̠	a ∼	
-ă	ă̠	a	
-ȧ	ɐ	ɐ	
-à	a	a	
-á	ɑ	ɑ	
-a	a̠	a	
+ã̱	ã̠͉	a	
+ã̱͜è̃	ã̱è̃	aɛ̃
+ā̱	a	a
+ă̱		a
+ă̱	ă̠͉	a	
+ằ̱		a
+ȧ̱	ɐ͉	ɐ	
+ȧ̱̃	a	a	
+a̱̩	á̠͉	a	
+a̱̩ͤ	ǽ͉	æ	
+a̱̩ͤ͜ó	a̱̩ͤó	æo
+a̱͜aͤ	a̱aͤ	aæ
+a̱͜aͤ̄	a̱aͤ̄	aæː
+a̱͜e	a̱e	ae
+a̱͜è	a̱è	aɛ
+a̱͜è̃	a̱è̃	aɛ̃
+a̱͜é	a̱é	ae
+a̱͜ḕ	a̱ḕ	aɛː
+a̱͜ò	a̱ò	aɔ
+a̱͜òy	a̱òy	aɔ j
+a̱͜òyè̱	a̱òyè̱	aɔ j ɛ
+a̱͜ó	a̱ó	ao
+a̱͜ō	a̱ō	aoː
+a̱͜ṑ	a̱ṑ	aɔː
+a̱ͤ	æ͉	æ	
+a̱ͤ͜ó	a̱ͤó	æo
+a̱ͦ	ɒ̝͉	ɒ	
+a̱ͦ̃	ɒ̝͉̃	ɒ	
+a̱ͦ͜è̃	a̱ͦè̃	ɒɛ̃
+a̱ͦ͜ṑ	a̱ͦṑ	ɒɔː
+a͜a	aa	aa
+a͜ā	aā	aaː
+a͜aͤ	aaͤ	aæ
+a͜aͤ̄	aaͤ̄	aæː
+a͜e	ae	ae
+a͜è	aè	aɛ
+a͜è̱	aè̱	aɛ
+a͜é	aé	ae
+a͜é̱	aé̱	ae
+a͜ē	aē	aeː
+a͜ḕ	aḕ	aɛː
+a͜é̩	aé̩	ae
+a͜ē̩	aē̩	aeː
+a͜ḗ̩	aḗ̩	aˈ/eː
+a͜e̱	ae̱	ae
+a͜è̱	aè̱	aɛ
+a͜é̱	aé̱	ae
+a͜e̱ͥ	ae̱ͥ	ae
+a͜eͥ	aeͥ	ae
+a͜i	ai	ai
+a͜i̱	ai̱	ai
+a͜o	ao	ao
+a͜ò	aò	aɔ
+a͜ò̱	aò̱	aɔ
+a͜ó	aó	ao
+a͜ó̱	aó̱	ao
+a͜ō	aō	aoː
+a͜ṓ	aṓ	aoː
+a͜ȯ̱	aȯ̱	aɔ
+a͜ó̩	aó̩	aˈ/o
+a͜o̱	ao̱	ao
+a͜ò̱	aò̱	aɔ
+a͜ó̱	aó̱	ao
+a͜ʋ	aʋ	au
+a͜ʋ̀	aʋ̀	aʊ
+a͜ʋ̆	aʋ̆	au
+a͜ʋ̱	aʋ̱	au
+a͜ʋͦ	aʋͦ	au
+a̱͜e	a̱e	ae
+a̱͜è	a̱è	aɛ
+a̱͜é	a̱é	ae
+a̱͜ḕ	a̱ḕ	aɛː
+aͤ	æ	æ	
+aͤ̃	æ̃	æ̃	
+aͤ̄	æː	æː	
+aͤ̆	æ̆	æ	
+ạͤ̆	a	a
+aͤ̆͜ó	aͤ̆ó	æo
+aͤ̆͜ŏ́	aͤ̆ŏ́	æo
+aͤ͋	æ͋	ˈ/æ	
+aͤ͜è	aͤè	æɛ
+aͤ͜è̱	aͤè̱	æɛ
+aͤ͜ó	aͤó	æo
+aͤ͜ŏ́	aͤŏ́	æo
+aͤ͜ó̩	aͤó̩	æˈ/o
+aͤ͜œ̄̀	aͤœ̄̀	æœː
+a̱ͤ͜ó	a̱ͤó	æo
+aͦ		ɒ
+aͦ	ɒ̝	ɒ	
+aͦ̃	ɒ̝̃	ɑ	
+aͦ̃͜è̃	aͦ̃è̃	ɑɛ̃
+aͦ̃͜é̃	aͦ̃é̃	ɑẽ
+aͦ̃͜ë̃	aͦ̃ë̃	ɑɛ
+aͦ̄	ɒ̝ː	ɒː	
+a̱ͦ̄	a	a
+aͦ̆	ɒ̝̆	ɒ	
+a̱ͦ		ɒ
+aͦ͜ó	aͦó	ɒo
+aͦ͜ó̱	aͦó̱	ɒo
+aͦ͜ó̱	aͦó̱	ɒo
 b	b	b	
-c̱̑	x͉	x	
+ḇ	b	b
+c		ts
+c	ts	ts
+cç̑é	tʃ	tʃ e
 c̑	x	x	
-kc̱̑	kx͉	kx	
-kc̑	kx	kx	
-c̵̯	ʃ̠	ʃ	
-c̵	ʃ	ʃ	
-tc̵̯	tʃ̠	tʃ	
-tc̵	tʃ	tʃ	
-ç̱̑	ç͉	ç	
-ç̵̑	ɕ	ɕ	
+c̣		ts
+c̦̑	tʃ	tʃ
+ç̑		ç
 ç̑	ç	ç	
+ç̑	tʃ	tʃ
+ç̱̑		ç
+ç̱̑	ç͉	ç	
+c̱̑	x͉	x	
+c̵		ʃ
+c̵	ʃ	ʃ	
+ç̵̑	ɕ	ɕ	
+c̵̯	ʃ̠	ʃ	
+c̵̾	ʃ	ʃ
 c̵̾ 	ʃ̟	ʃ	
-tç̱̑	tç͉	tç	
-tç̵̑	tɕ	tɕ	
-tç̑	tç	tç	
-tc̵̾ 	tʃ̟	tʃ	
-dͭ	d̥	d̥	
-d̮	dʲ	dʲ	
-d̯̄	d̠ː	dː	
-d̄	dː	dː	
-ḏ	d͉	d	
-d̯	d̠	d	
+c̵͜		ʃ
 d	d	d	
-e̩ͥ̄	é̝ː	ˈ/e	
-eͥ̄	e̝ː	eː	
-e̱ͥ	e̝͉	e	
-e̩ͥ	é̝	ˈ/e	
-eͥ̃	ẽ̝	e ∼	
-eͥ̆	ĕ̝	e	
-eͥ	e̝	e	
-è̩̄̃	ɛ̃́ː	ɛː ∼	
-ḕ̱	ɛ͉ː	ɛː	
-ḕ̩	ɛ́ː	ˈ/ɛː	
-ḗ̩	éː	ˈ/eː	
-ē̩	é̞ː	ˈ/eː	
-è̄̃	ɛ̃ː	ɛː ∼	
-ē̃	ẽː	eː ∼	
-ë̄	ɛ̈ː	ɛː	
-ḕ	ɛː	ɛː	
-ḗ	eː	eː	
-ē	e̞ː	eː	
-ė̱̣	ə͉́	ə	
-ė̱̃	ə͉̃	ə	
-è̱̃	ɛ͉̃	ɛ	
-é̱̃	ẽ͉	e	
-ĕ̱̀	ɛ͉̆	ɛ	
-ë̩̆	ɛ̈̆́	ɛ	
-è̩̃	ɛ̃́	ɛ ∼	
-é̩̃	ẽ́	e ∼	
-ĕ̩̀	ɛ̆́	ɛ	
-ẽ̱	ẽ̞͉	e	
-ĕ̩́	ĕ́	e	
-ë̱	ɛ͉̈	ɛ	
-ẽ̩	ẽ̞́	e	
-ė̱	ə͉	ə	
-è̱	ɛ͉	ɛ	
-é̱	e͉	e	
-ĕ̩	ĕ̞́	e	
-è͋	ɛ͋	ɛ	
-ë̩	ɛ̈́	ɛ	
-é͋	e͋	e	
-ė̩	ə́	ˈ/ə	
-è̩	ɛ́	ˈ/ɛ	
-é̩	é	ˈ/e	
-e̱	e̞͉	e	
-e̱	e̞͉	e	
-e̩	é̞	ˈ/e	
-ë̃	ɛ̈̃	ɛ	
-ė̃	ə̃	ə̃	
-ë̆	ɛ̈̆	ɛ	
-è̃	ɛ̃	ɛ̃	
-é̃	ẽ	ẽ	
-ĕ̀	ɛ̆	ɛ	
-ĕ́	ĕ	e	
-ẽ	ẽ̞	ẽ	
-ĕ	ĕ̞	e	
-ë	ɛ̈	ɛ	
-ė	ə	ə	
-è	ɛ	ɛ	
-é	e	e	
-e	e̞	e	
-f	f	f	
-pf	pf	pf	
-gͩ	ɡ̟	g	
-g̱	ɡ͉͉	g	
-g	ɡ	g	
-ẖ	h͉	h	
-h	h	h	
-ï̩̄	ɪ̈́ː	ˈ/ɪː	
-ī̱	i͉ː	iː	
-ī̩	íː	ˈ/iː	
-ī̀	ɪː	ɪː	
-ī	iː	iː	
-ï̩̆	ɪ̈̆́	ɪ	
-ĭ̩̀	ɪ̆́	ɪ	
-ĩ̱	ĩ͉	i	
-ĭ̱	ĭ͉	i	
-ï̱	ɪ͉̈	ɪ	
-ì̱	ɪ͉	ɪ	
-ï̩	ɪ̈́	ɪ	
-ì̩	ɪ́	ˈ/ɪ	
-i̱	i͉	i	
-i̩	í	ˈ/ɪ	
-ì̃	ɪ̃	ɪ̃	
-ĭ̀	ɪ̆	ɪ	
-ĩ	ĩ	ɪ̃	
-ĭ	ĭ	ɪ	
-ï	ɪ̈	ɪ	
-ì	ɪ	ɪ	
-i	i	i	
-jͨ	ʒ̥	ʒ	
-j̱	ʒ͉	ʒ	
-j͛	ʒ̟	ʒ	
-j	ʒ	ʒ	
-k̮ͭ	c	c	
-k̮	kʲ	kʲ	
-ḵ	k͉	k	
-k	k	k	
-l̮̱	ʎ͉	ʎ	
-l̮	ʎ	ʎ	
-l̆̍	lʲ	lʲ	
-l̷̄	ʟː	ʟː	
-l̄	lː	lː	
-ḻ	l͉	l	
-l̯	l̠	l	
-l̷	ʟ	ʟ	
-l	l	l	
-m̄	mː	mː	
-m̱	m͉	m	
-m	m	m	
-ṉ̇	ŋ͉	ŋ	
-ṅ	ŋ	ŋ	
-n̄	nː	nː	
-ṉ	n͉	n	
-n̯	n̠	n	
-n̮	ɲ	ɲ	
-n	n	n	
-o̩ͮ̄	ó̝ː	ˈ/oː	
-oͮ̄	o̝ː	oː	
-o̱ͮ	o̝͉	o	
-o̩ͮ	ó̝	ˈ/o	
-oͮ̃	õ̝	õ	
-oͮ̆	ŏ̝	o	
-oͮ	o̝	o	
-ṓ̩	óː	ˈ/oː	
-ō̱	o̞͉ː	oː	
-ṓ	oː	oː	
-ō	o̞ː	oː	
-ó̱̃	õ͉	o	
-õ̱	õ̞͉	o	
-ŏ̱	ŏ̞͉	o	
-ó̱	o͉	o	
-ŏ̩	ŏ̞́	o	
-ó̩	ó	ˈ/o	
-o̱	o̝͉	o	
-o̩	ó̞	ˈ/o	
-ó̃	õ	õ	
-ŏ́	ŏ	o	
-ṑ̱	ɔ͉ː	ɔː	
-ò̄̃	ɔ̃ː	ɔ̃ː	
-ȱ	ɔ̈ː	ɔː	
-ṑ	ɔː	ɔː	
-ò̱̩	ɔ͉̈́	ɔ	
-ò̱̩	ɔ͉́	ɔ	
-ȯ̱̃	ɔ͉̈̃	ɔ	
-ò̱̃	ɔ͉̃	ɔ	
-ò̩̃	ɔ̃́	ɔ ∼	
-ŏ̩̀	ɔ̆́	ɔ	
-ȯ̱	ɔ͉̈	ɔ	
-ò̱	ɔ͉	ɔ	
-ò͋	ɔ͋	ɔ	
-ȯ̩	ɔ̈́	ɔ	
-ò̩	ɔ́	ˈ/ɔ	
-ò̃	ɔ̃	ɔ̃	
-ŏ̀	ɔ̆	ɔ	
-ȯ	ɔ̈	ɔ	
-ò	ɔ	ɔ	
-õ	õ̞	o ∼	
-ŏ	ŏ̞	o	
-ó	o	o	
-o	o̞	o	
-œͧ̄	ø̝ː	øː	
-œͧ	ø̝	Ø	
-œͦ̄	ɞː	ɞː	
-œͦ̆	ɞ̆	ɞ	
-œͦ	ɞ	ɞ	
-œ̄̀	œː	œː	
-œ̩̆̀	œ̆́	œ	
-œ̱̀	œ͉	œ	
-œ̩̀	œ́	ˈ/œ	
-œ̀̃	œ̃	œ̃	
-œ̆̀	œ̆	œ	
-œ̀	œ	œ	
-œ̩̄́	ǿː	ˈ/øː	
-œ̩̄	ǿ̞ː	ˈ/øː	
-œ̄́	øː	øː	
-œ̄	ø̞ː	øː	
-œ̱̃	ø̞̃́	ø	
-œ̱́	ø͉	ø	
-œ̩̆	ø̞̆́	ø	
-œ̱	ø̞͉	ø	
-œ̩	ǿ̞	ø	
-œ́̃	ø̃	ø̃	
-œ̆́	ø̆	ø	
-œ̃	ø̞̃	ø	
-œ̆	ø̞̆	ø	
-œ́	ø	ø	
-œ	ø̞	ø	
-p	p	p	
-r̍	rˡ	rˡ	
-r̄	rː	rː	
-ṟ̇	ʀ͉	ʀ	
-ṟ	r͉	r	
-r̥	r̠	r	
-ṛ	ɾ	ɾ	
-ṙ	ʀ	ʀ	
-r	r	r	
-ṣ̍	θˡ	θˡ	
-ṣ	θ	θ	
-tṣ̍	tθˡ	tθˡ	affr
-tṣ	tθ	tθ	affr
-s̄	sː	sː	
-s̱	s͉	s	
-s	s	s	
-t̮̄	tʲː	tʲ	
-t̮	tʲ	tʲ	
-t̄	tː	tː	
-ṯ	t͉	t	
-t̯	t̠	t	
-t	t	t	
-ts	ts	ts	
-t̄s	tsː	tsː	
-uͨ̄	y̞ː	yː	
-uͨ̆	y̞̆	y	
-uͨ	y̞	y	
-ū̩̀	ʏ́ː	ˈ/ʏː	
-ū̩	ýː	ˈ/ʏ	
-ū̀	ʏː	ʏː	
-ū	ỹː	ỹː	
-ŭ̩̀	ʏ̆́	ʏ	
-u̱̇	ʏ͉̈	ʏ	
-ù̱	ʏ͉	ʏ	
-ŭ̩	y̆́	y	
-u̩̇	ʏ̈́	ʏ	
-ù̩	ʏ́	ˈ/ʏ	
-u̱	y͉	y	
-u̩	ý	ˈ/y	
-ù̃	ʏ̃	ỹ	
-ŭ̀	ʏ̆	ʏ	
-ũ	ỹ	ỹ	
-ŭ	y̆	y	
-u̇	ʏ̈	ʏ	
-ù	ʏ	ʏ	
-u	y	y	
-ʋͧ̄	ʉː	ʉː	
-ʋ̱ͧ	ʉ͉	ʉ	
-ʋ̩ͧ	ʉ́	ˈ/ʉ	
-ʋͧ̆	ʉ̆	ʉ	
-ʋͧ	ʉ	ʉ	
-v̱	vː	vː	
-v	v	v	
-ʋ̱̄	u͉ː	uː	
-ʋ̩̄	úː	ˈ/uː	
-ʋ̄̀	ʊː	ʊː	
-ʋ̄	uː	uː	
-ʋ̩̀̃	ʊ̃́	ʊ̃	
-ʋ̱̃	ũ͉	u	
-ʋ̱̆	ŭ͉	u	
-ʋ̱̇	ʊ͉̈	ʊ	
-ʋ̱̀	ʊ͉	ʊ	
-ʋ̩̆	ŭ́	ˈ/u	
-ʋ̩̇	ʊ̈́	ʊ	
-ʋ̩̀	ʊ́	ˈ/ʊ	
-ʋ̱	u͉	u	
-ʋ̩	ú	ˈ/u	
-ʋ̀̃	ʊ̃	ʊ̃	
-ʋ̆̀	ʊ̆	ʊ	
-ʋ̃	ũ	ũ	
-ʋ̆	ŭ	u	
-ʋ̇	ʊ̈	ʊ	
-ʋ̀	ʊ	ʊ	
-ʋ	u	u	
-w̄	wː	wː	
-w̱	w͉	w	
-w	w	w	
-ẅ̑	ɥʲ	ɥ	
-ẅ̱	ɥ͉	ɥ	
-ẅ	ɥ	ɥ	
-ẏ̱	ʁ̞	ʁ	
-y̆̍	jˡ	j	
-ȳ	jː	jː	
-y̱	j͉	j	
-y̆	ʝ	ʝ	
-y	j	j	
-z̄	zː	zː	
-z̾	z̥	z̥	
-ẕ	z͉	z	
-z	z	z	
-ẓ̍	ðˡ	ðˡ	
-ẓ̱	ð͉	ð	
-ẓ	ð	ð	
+dẓ	dð	dð	
 dẓ̍	dðˡ	dðˡ	
 dẓ̱	dð͉	dð	
-dẓ	dð	dð	
+d̄	dː	dː	
+d̮	dʲ	dʲ	
+d̯	d̠	d	
+d̯̄	d̠ː	dː	
+ḏ	d͉	d	
+ḏẓ		dz
+d͉	d	d
+dͭ	d̥	d̥	
+e	e̞	e	
+è		ɛ
+è	ɛ	ɛ	
+è̃		ɛ̃
+è̃	ɛ̃	ɛ̃	
+è̱̃		ɛ̃
+è̃͜ĩ̱	è̃ĩ̱	ɛ̃ɪ̃
+è̄		ɛ
+è̄̃	ɛ̃ː	ɛ̃ː	
+è̱	e	e
+è͉	e	e
+è͋	ɛ͋	ɛ	
+è͜è	èè	ɛɛ
+è͜i̱	èi̱	ɛi
+è̱͜é	è̱é	ɛe
+é		e
+é	e	e	
+é̃	ẽ	ẽ	
+é̱		e
+é͋	e͋	e	
+é͜i	éi	ei
+é͜i̱	éi̱	ei
+ẽ	ẽ̞	ẽ	
+ē	e̞ː	eː	
+ḕ	ɛː	ɛː	
+ḗ	eː	eː	
+ḗ́́	e	e
+ē̃	ẽː	ẽː	
+ĕ	ĕ̞	e	
+ĕ̀		ɛ
+ĕ̀	e	e
+ĕ̀	ɛ̆	ɛ	
+ĕ̱̀		ɛ
+ĕ́	ĕ	e	
+ĕ́͜i̱	ĕ́i̱	ei
+ĕ̇	e	e
+ĕ̇i̱	ĕ̇i̱	ei
+ė	ə	ə	
+ė̃		ə̃
+ė̃	ə̃	ə̃	
+ė̱̃		ə̃
+ė̱	ə	ə
+ė͋	ė͋	e
+ė͜i	ėi	əi
+ë		ɛ
+ë	ɛ̈	ɛ	
+ë̃	ɛ̈̃	ɛ	
+ë̄	ɛ̈ː	ɛː	
+ë̆	ɛ̈̆	ɛ	
+ë̱		ɛ
+e̩		e
+e̩	é̞	ˈ/e	
+è̩	ɛ́	ˈ/ɛ	
+è̩̃	ɛ̃́	ɛ̃	
+è̩̄̃	ɛ̃́ː	ɛ̃ː	
+é̩	é	ˈ/e	
+é̩̃	ẽ́	ẽ	
+ẽ̩	ẽ̞́	e	
+ē̩	é̞ː	ˈ/eː	
+ḕ̩	ɛ́ː	ˈ/ɛː	
+ḗ̩	éː	ˈ/eː	
+ĕ̩	ĕ̞́	e	
+ĕ̩̀	ɛ̆́	ɛ	
+ĕ̩́	ĕ́	e	
+ė̩	ə́	ˈ/ə	
+ë̩	ɛ̈́	ɛ	
+ë̩̆	ɛ̈̆́	ɛ	
+e̩̱		e
+è̩̱	e	ɛ
+ė̩̱		ɛ
+e̩ͥ	é̝	ˈ/e	
+e̩ͥ̄	é̝ː	ˈ/e	
+e̱	e̞͉	e	
+è̱	ɛ͉	ɛ	
+è̱̃	ɛ͉̃	ɛ	
+è̱͜ã	è̱ã	ɛã
+è̱͜é	è̱é	ɛe
+é̱	e͉	e	
+é̱̃	ẽ͉	e	
+ẽ̱	ẽ̞͉	e	
+ē̱	e	e
+ḕ̱	ɛ͉ː	ɛː	
+ĕ̱̀	ɛ͉̆	ɛ	
+ė̱	ə͉	ə	
+ė̱̃	ə͉̃	ə	
+ė̱͜é	ė̱é	əe
+ė̱͜ó	ė̱ó	əo
+ë̱	ɛ͉̈	ɛ	
+ë̱͜ó	ë̱ó	ɛo
+ė̱̣	ə͉́	ə	
+e̱ͥ	e̝͉	e	
+eͥ		e
+eͥ	e̝	e	
+eͥ̃	ẽ̝	ẽ	
+eͥ̄	e̝ː	eː	
+ẹͥ̄i̱	ei	ei
+eͥ̆	ĕ̝	e	
+e̱ͥ		e
+f	f	f	
+fṓ́́	fo	f o
+g	ɡ	g	
+g̱	ɡ͉͉	g	
+gͩ	ɡ̟	g	
+h	h	h	
+ẖ	h͉	h	
+i	i	i	
+ia͜ó̱	iaó̱	i ao
+ì	ɪ	ɪ	
+ì̃	ɪ̃	ɪ̃	
+ĩ		ɪ̃
+ĩ	ĩ	ɪ̃	
+ĩ̱		ɪ̃
+ī		iː
+ī	iː	iː	
+ī̀	ɪː	ɪː	
+ī́	i	i
+ī̱		iː
+i̅	i	i
+ĭ	ĭ	ɪ	
+ĭ̀	ɪ̆	ɪ	
+ị̆	i	i
+ï		ɪ
+ï	ɪ̈	ɪ	
+ï̱		ɪ
+ǐ	i	i
+i̩	í	ˈ/ɪ	
+ì̩	ɪ́	ˈ/ɪ	
+ī̩	íː	ˈ/iː	
+ĭ̩	i	i
+ĭ̩t̮è	ite	i t e
+ĭ̩̀	ɪ̆́	ɪ	
+ï̩	ɪ̈́	ɪ	
+ï̩̄	ɪ̈́ː	ˈ/ɪː	
+ï̩̆	ɪ̈̆́	ɪ	
+i̱	i͉	i	
+ì̱	ɪ͉	ɪ	
+í̱	í̱	i
+ĩ̱	ĩ͉	i	
+ī̱	i͉ː	iː	
+ĭ̱	ĭ͉	i	
+ï̱	ɪ͉̈	ɪ	
+i͜ằ	iằ	ia
+i͜é	ié	ie
+i͜ĕ	iĕ	ie
+i͜ė	iė	iə
+i͜ë	ië	iɛ
+i͜ė̱	iė̱	iə
+j	ʒ	ʒ	
+j̱	ʒ͉	ʒ	
+j͛	ʒ̟	ʒ	
+jͨ	ʒ̥	ʒ	
+k	k	k	
+kc̑	kx	kx	
+kc̱̑	kx͉	kx	
+k̮	kʲ	kʲ	
+k̮ͭ	c	c	
+ḵ	k͉	k	
+l	l	l	
+là̃	la	l ã
+l̄	lː	lː	
+l̆̍	lʲ	lʲ	
+l̑	l	l
+l̥	l̥	l
+l̮	ʎ	ʎ	
+l̮à̃		l ã
+l̮à		ʎ a
+l̮̱	ʎ͉	ʎ	
+l̯	l̠	l	
+ḻ	l͉	l	
+l̷	ʟ	ʟ	
+l̷̄	ʟː	ʟː	
+m	m	m	
+m̄	mː	mː	
+m̱	m͉	m	
+n	n	n	
+n̄	nː	nː	
+ṅ		ŋ
+ṅ	ŋ	ŋ	
+ṉ̇		ŋ
+n̮	ɲ	ɲ	
+n̯	n̠	n	
+ṉ	n͉	n	
+ṉ̇		ŋ
+ṉ̇	ŋ͉	ŋ	
+ṉ̇͜		ŋ
+ṉ͘	n	n
+o	o̞	o	
+ò		ɔ
+ò	ɔ	ɔ	
+ò̃		ɔ̃
+ò̃	ɔ̃	ɔ̃	
+ò̱̃		ɔ̃
+ò̄̃	ɔ̃ː	ɔ̃ː	
+ò̱		ɔ
+ò͋	ɔ͋	ɔ	
+ò͜ā	òā	ɔaː
+ò͜āè	òāè	ɔ aːɛ
+ò͜āè̱	òāè̱	ɔaː ɛ
+ò͜ă	òă	ɔa
+ò͜aͦ̄	òaͦ̄	ɔɒː
+ò͜è	òè	ɔɛ
+ò͜ó	òó	ɔo
+ò͜ó	ɔo	ɔo ̱
+ò͜ó ̱	ɔo	ɔo
+ò͜ó̱	òó̱	ɔo
+ò͜ó̱	òó̱	ɔo
+ò͜ʋ	òʋ	ɔu
+ò̱͜ó	ò̱ó	ɔo
+ó		o
+ó	o	o	
+ó̃		õ
+ó̃	õ	õ	
+ó̱̃		õ
+ó̱		o
+ó͜ă	óă	oa
+õ		õ
+õ	õ̞	õ	
+õ̱		õ
+ō	o̞ː	oː	
+ṑ		ɔː
+ṑ	ɔː	ɔː	
+ṑ̩		ɔː
+ṑ͜ó̱	ṑó̱	ɔːo
+ṓ	oː	oː	
+ŏ		o
+ŏ	ŏ̞	o	
+ŏ̀	ɔ̆	ɔ	
+ŏ̀͜ó̱	ŏ̀ó̱	ɔo
+ŏ̀͜ó̱	ŏ̀ó̱	ɔo
+ŏ̀͜œ̱́	ŏ̀œ̱́	ɔø
+ŏ́	ŏ	o	
+ŏ̱		o
+ȯ		ɔ
+ȯ	ɔ̈	ɔ	
+ȱ	ɔ̈ː	ɔː	
+ọ̇r	or	o r
+ȯ̱		ɔ
+o̩		o
+o̩	ó̞	ˈ/o	
+ò̩	ɔ́	ˈ/ɔ	
+ò̩̃	ɔ̃́	ɔ̃	
+ò̩̱	o	o
+ó̩	ó	ˈ/o	
+ó̩̃	o	o
+õ̩	o	o
+ō̩	o	o
+ṑ̩	o	o
+ṑ̩r	o r	o r
+ṓ̩	óː	ˈ/oː	
+ŏ̩	ŏ̞́	o	
+ŏ̩̀	ɔ̆́	ɔ	
+ŏ̩́	o	o
+ŏ̩́ă	oa	oa
+ŏ̩́ă̩	ŏ̩́ă̩	oa
+ȯ̩	ɔ̈́	ɔ	
+o̩̱		o
+ȯ̩̱ʋ̄̀	ou	ou
+o̩ͮ	ó̝	ˈ/o	
+o̩ͮ̄	ó̝ː	ˈ/oː	
+o̱		o
+o̱	o̝͉	o	
+ò̱	ɔ͉	ɔ	
+ò̱̃	ɔ͉̃	ɔ	
+ò̱͜eͥ̆	ò̱eͥ̆	ɔe
+ò̱͜ó	ò̱ó	ɔo
+ò̱͜œ	ò̱œ	ɔø
+ò̱͜œ̄	ò̱œ̄	ɔøː
+ò̱͜œ̄̀	ò̱œ̄̀	ɔœː
+ò̱͜ʋͦ	ò̱ʋͦ	ɔu
+ó̱	o͉	o	
+ó̱̃	õ͉	o	
+õ̱	õ̞͉	o	
+ō̱	o̞͉ː	oː	
+ṑ̱	ɔ͉ː	ɔː	
+ŏ̱	ŏ̞͉	o	
+ȯ̱	ɔ͉̈	ɔ	
+ȯ̱̃	ɔ͉̈̃	ɔ	
+ȯ̱͜œ	ȯ̱œ	ɔø
+ȯ̱͜œ̩̄	ȯ̱œ̩̄	ɔøː
+o̱̣		o
+ò̱̣	o	o
+ò̱̩	ɔ͉́	ɔ	
+ò̱̩	ɔ͉̈́	ɔ	
+o̱͜		o
+o̱͜ā	o̱ā	oaː
+o̱͜īí̱	o̱ī	oiː
+o̱ͮ	o̝͉	o	
+o͜ă	oă	oa
+o͜ĭ	oĭ	oɪ
+oͦ̃n	õn	õ n
+oͧ̄r	oͧ̄r	o r
+oͧ̄v	oͧ̄v	o v
+oͮ	o̝	o	
+oͮ̃	õ̝	õ	
+oͮ̄	o̝ː	oː	
+oͮ̆	ŏ̝	o	
+p	p	p	
+pf	pf	pf	
+poͧ̆ʋ̱̄rò̱	poͧ̆ʋ̱̄rò̱	p ou r o
+r		i
+r	r	r	
+r̄	rː	rː	
+ṙ	ʀ	ʀ	
+r̍	rˡ	rˡ	
+ṛ	ɾ	ɾ	
+r̥	r̠	r	
+ṟ	r͉	r	
+ṟ̇	ʀ͉	ʀ	
+s		s
+s	s	s	
+sãtc̵̾ç̑é	sãtc̵̾ç̑é	s ã tʃ ɛ
+s̄	sː	sː	
+ṡ	s	s
+ṣ	θ	θ	
+ṣ̍	θˡ	θˡ	
+s̱	s͉	s	
+s͜		s
+t	t	t	
+tç̑	tç	tç	
+tç̱̑	tç͉	tç	
+tc̵	tʃ	tʃ	
+tc̵̣	tʃ	tʃ
+tç̵̑	tɕ	tɕ	
+tc̵̯	tʃ̠	tʃ	
+tc̵̾	tʃ	tʃ
+tc̵̾ 	tʃ̟	tʃ	
+ts	ts	ts	
+tṣ	tθ	tθ	affr
+tṣ̍	tθˡ	tθˡ	affr
+tʋ͜è	t u e	t u e
+t̄	tː	tː	
+t̄s	tsː	tsː	
+t̮	tʲ	tʲ	
+t̮ŭ̩̣dë̩ră	t̮ŭ̩̣dë̩ră	tʲ y d ɛ r a
+t̮̄	tʲː	tʲ	
+t̯	t̠	t	
+ṯ	t͉	t	
+u	y	y	
+ù		ʏ
+ù	ʏ	ʏ	
+ù̃	ʏ̃	ỹ	
+ù̱		ʏ
+ũ	ỹ	ỹ	
+ū	ỹː	ỹː	
+ū̀	ʏː	ʏː	
+ŭ	y̆	y	
+ŭ̀	ʏ̆	ʏ	
+ŭ͜è	ŭè	yɛ
+u̇	ʏ̈	ʏ	
+u̩	ý	ˈ/y	
+ù̩	ʏ́	ˈ/ʏ	
+ū̩	ýː	ˈ/ʏ	
+ū̩̀	ʏ́ː	ˈ/ʏː	
+ŭ̩	y̆́	y	
+ŭ̩̀	ʏ̆́	ʏ	
+ŭ̩͜ĕ̀	ŭ̩ĕ̀	yɛ
+u̩̇	ʏ̈́	ʏ	
+ŭ̩̣	y	y
+u̱	y͉	y	
+ù̱	ʏ͉	ʏ	
+u̱̇	ʏ͉̈	ʏ	
+u͜a	ua	ya
+u͜āyė̱	uāyė̱	yaː j ə
+u͜ằ	uằ	ya
+u͜a̩	ua̩	ya
+u͜ā̩	uā̩	yaː
+u͜à̱	uà̱	ya
+u͜ĕ̀	uĕ̀	yɛ
+u͜ė	uė	yə
+uͨ	y̞	y	
+uͨ̄	y̞ː	yː	
+uͨ̆	y̞̆	y	
+v	v	v
+v	v	v	
+vạͤ̆rda	vạͤ̆rda	v a r d a
+v̱	vː	vː	
+w	w	w	
+w̄	wː	wː	
+ẅ		ɥ
+ẅ	ɥ	ɥ	
+ẅ̑	ɥʲ	ɥ	
+ẅ̱		ɥ
+w̱	w͉	w	
+ẅ̱	ɥ͉	ɥ	
+x̱	x	x
+y		j
+y	j	j	
+yà̃		j ã
+yà̱	ja	j a
+yā͜ò̱	yāò̱	j aːɔ
+yă͜é̱	yăé̱	j ae
+ya͜é̱	yaé̱	j ae
+ya͜ò	yaò	j aɔ
+ya͜ó	yaó	j ao
+yaͤ͜ʋͦ	yaͤʋͦ	j æu
+yò͜ó̱	yòó̱	j ɔo
+yà		j a
+yœ̩͜u̱	yœ̩u̱	j øy
+yʋ͜ă	jua	j ua
+ȳ	jː	jː	
+y̆	ʝ	ʝ	
+y̆̍	jˡ	j	
+ẏ		j
+y̑	j	j
+y̑a͜ò	y̑aò	j aɔ
+y̑a͜ó̱	y̑aó̱	j ao
+y̱	j͉	j	
+ẏ̱	ʁ̞	ʁ	
+z	z	z	
+z̄	zː	zː	
+ẓ	ð	ð	
+ẓ̍	ðˡ	ðˡ	
+ẓ̱	ð͉	ð	
+ẕ	z͉	z	
+z̾	z̥	z̥	
+·	NULL	NULL
+Í	i	i
+Ø	ø	ø
+ạ̀ră	ạ̀ră	a r a
+ã		a
+ạ̃s	ạ̃s	ã s
+ã͜è̃	ãè̃	ãɛ̃
+ç	ç	ç
+é		ɛ
+é̃		ɛ
+ł	l	l
+ł̄	ł̄	l
+œ	ø̞	ø	
+œ̀		œ
+œ̀		ʉ
+œ̀	œ	œ	
+œ̀̃	œ̃	œ̃	
+œ̱̀		œ
+œ̱̀͜ó	œ̱̀ó	œo
+œ̱̀͜ṓ	œ̱̀ṓ	œoː
+œ̀͜i	œ̀i	œi
+œ̀͜ó	œ̀ó	œo
+œ̀͜u	œ̀u	œy
+œ́		ø
+œ́	ø	ø	
+œ́̃	ø̃	ø̃	
+œ̱́		ø
+œ̃		ø
+œ̃	ø̞̃	ø	
+œ̱̃		ø
+œ̄	ø̞ː	øː	
+œ̄̀	œː	œː	
+œ̄́	øː	øː	
+œ̣̄	ø	ø
+œ̆	ø̞̆	ø	
+œ̆̀	œ̆	œ	
+œ̣̆̀	œ̣̆̀	ø
+œ̆̀͜ò̃	œ̆̀ò̃	œɔ̃
+œ̆̀͜ʋͦ	œ̆̀ʋͦ	œu
+œ̆́	ø̆	ø	
+œ̆́͜u̱	œ̆́u̱	øy
+œ̆͜ò̃	œ̆ò̃	øɔ̃
+œ̇	ø	ø
+œ̩	ǿ̞	ø	
+œ̩̀	œ́	ˈ/œ	
+œ̩̀̃	ø	ø
+œ̩̄	ǿ̞ː	ˈ/øː	
+œ̩̄̀	œ̩̄̀	ø
+œ̩̄́	ǿː	ˈ/øː	
+œ̩̆	ø̞̆́	ø	
+œ̩̆̀	œ̆́	œ	
+œ̩̇	ø	ø
+œ̱	ø̞͉	ø	
+œ̱̀	œ͉	œ	
+œ̱̀̃	ø	ø
+œ̱̀͜i	œ̱̀i	œi
+œ̱̀͜ò̃	œ̱̀ò̃	œɔ̃
+œ̱̀͜ó	œ̱̀ó	œo
+œ̱̀͜ṓ	œ̱̀ṓ	œoː
+œ̱̀͜ŏ́	œ̱̀ŏ́	œo
+œ̱̀͜ó̩	œ̱̀ó̩	œo
+œ̱̀͜ʋͦ	œ̱̀ʋͦ	œu
+œ̱́	ø͉	ø	
+œ̱̃	ø̞̃́	ø	
+œ̱̇	ø	ø
+œ̱̇͜ŏ́	œ̱̇ŏ́	øo
+œ̱̇͜ṓ̩	œ̱̇ṓ̩	øoː
+œ̱͜ó	œ̱ó	øo
+œ͜ó	œó	øo
+œ͜ù	œù	øʏ
+œ͜u̱	œu̱	øy
+œͦ	ɞ	ɞ	
+œͦ̄	ɞː	ɞː	
+œͦ̆	ɞ̆	ɞ	
+œͧ	ø̝	ø	
+œͧ̄	ø̝ː	øː	
+ʋ		u
+ʋ	u	u	
+ʋ̀		ʊ
+ʋ̀	ʊ	ʊ	
+ʋ̀̃	ʊ̃	ʊ̃	
+ʋ̱̀		ʊ
+ʋ̃		ũ
+ʋ̃	ũ	ũ	
+ʋ̱̃		ũ
+ʋ̄	uː	uː	
+ʋ̄̀	ʊː	ʊː	
+ʋ̄́	u	u	
+ʋ̆		u
+ʋ̆	ŭ	u	
+ʋ̆̀	ʊ̆	ʊ	
+ʋ̆͜		u
+ʋ̇	ʊ̈	ʊ	
+ʋ̩	ú	ˈ/u	
+ʋ̩̀	ʊ́	ˈ/ʊ	
+ʋ̩̀̃	ʊ̃́	ʊ̃	
+ʋ̩̄	úː	ˈ/uː	
+ʋ̩̄̀	u	u
+ʋ̩̆	ŭ́	ˈ/u	
+ʋ̩̇	ʊ̈́	ʊ	
+ʋ̩̱̀	u	u
+ʋ̩ͦ	u	u
+ʋ̩ͦ̄	u	u
+ʋ̩ͧ	ʉ́	ˈ/ʉ	
+ʋ̱		u
+ʋ̱	u͉	u	
+ʋ̱̀	ʊ͉	ʊ	
+ʋ̱̃	ũ͉	u	
+ʋ̱̄	u͉ː	uː	
+ʋ̱̆	ŭ͉	u	
+ʋ̱̇	ʊ͉̈	ʊ	
+ʋ̱ͦ		u
+ʋ̱ͧ	ʉ͉	ʉ	
+ʋ͜		u
+ʋ͜ă		ua
+ʋ͜ă	ʋ͜ă	ua
+ʋ͜ắ		ua
+ʋͦ		u
+ʋͦ	ʋͦ	u
+ʋͦ̃	u	ũ
+ʋͦ̄	u	u
+ʋ̱ͦ̄r	ur	u r
+ʋͦ̆	u	u
+ʋ̣ͦă	ʋ̣ͦă	ua
+ʋ̱ͦ	u	u
+ʋͦ͜		u
+ʋͧ		ʉ
+ʋͧ	ʉ	ʉ	
+ʋͧ̄	ʉː	ʉː	
+ʋͧ̆	ʉ̆	ʉ	
+ʋ̱ͧ		ʉ
+ʋͧ͜a	ʋͧ͜a	ua
+ᶙ̣̄	u	u
+ᶪ	ᶪ	NULL
+ṛ		r
+ṣ		s
+ẓ		z
+ắ		a
+ằ		a
+ằ̱	a	a
+•	.	+	
