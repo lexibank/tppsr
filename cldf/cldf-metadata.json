@@ -17,7 +17,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr/",
-            "dc:created": "bcf539d"
+            "dc:created": "15648f4"
         },
         {
             "rdf:type": "prov:Entity",
@@ -29,7 +29,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.3.0-107-g79157a1"
+            "dc:created": "v2.3.0-162-gc2397a0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -56,7 +56,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 29759,
+            "dc:extent": 29485,
             "tableSchema": {
                 "columns": [
                     {
