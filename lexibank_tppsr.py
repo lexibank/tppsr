@@ -10,11 +10,6 @@ from csvw.metadata import URITemplate
 
 from lingpy import *
 from clldutils.misc import slug
-from segments.tokenizer import Tokenizer
-
-from unicodedata import normalize # remove later
-
-from pyclts import CLTS
 
 @attr.s
 class CustomConcept(Concept):
