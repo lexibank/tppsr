@@ -6,7 +6,7 @@ Cite the source dataset as
 
 This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/ license
 
-Available online at https://archive.org/details/gauchat-et-al-1925-tppsr
+Available online at https://tppsr.clld.org
 
 
 Conceptlists in Concepticon:
@@ -27,11 +27,11 @@ Conceptlists in Concepticon:
 
 - **Varieties:** 62
 - **Concepts:** 480
-- **Lexemes:** 29,485
+- **Lexemes:** 29,464
 - **Sources:** 158
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 166,904
+- **Tokens:** 166,883
 - **Segments:** 400 (0 BIPA errors, 0 CTLS sound class errors, 400 CLTS modified)
 - **Inventory size (avg):** 82.21
 

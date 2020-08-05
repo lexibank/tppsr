@@ -6,7 +6,7 @@
     "dc:format": [
         "http://concepticon.clld.org/contributions/Gauchat-1925-480"
     ],
-    "dc:identifier": "https://archive.org/details/gauchat-et-al-1925-tppsr",
+    "dc:identifier": "https://tppsr.clld.org",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:related": null,
@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr/",
-            "dc:created": "6c7890e"
+            "dc:created": "d99b57b"
         },
         {
             "rdf:type": "prov:Entity",
@@ -57,7 +57,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 29485,
+            "dc:extent": 29464,
             "tableSchema": {
                 "columns": [
                     {
@@ -129,7 +129,7 @@
                     },
                     {
                         "datatype": "string",
-                        "valueUrl": "https://ia801505.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/gauchat-et-al-1925-tppsr/gauchat-et-al-1925-tppsr_jp2.zip&file=gauchat-et-al-1925-tppsr_jp2/gauchat-et-al-1925-tppsr_0{Scan}.jp2&id=Z2F1Y2hhdC1ldC1hbC0xOTI1LXRwcHNy&scale=5",
+                        "valueUrl": "https://ia801505.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/gauchat-et-al-1925-tppsr/gauchat-et-al-1925-tppsr_jp2.zip&file=gauchat-et-al-1925-tppsr_jp2/gauchat-et-al-1925-tppsr_{Scan}.jp2&id=Z2F1Y2hhdC1ldC1hbC0xOTI1LXRwcHNy&scale=5",
                         "name": "Scan"
                     },
                     {

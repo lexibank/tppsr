@@ -79,7 +79,7 @@ class Dataset(BaseDataset):
             concepts[concept.number] = (idx, concept.attributes['page'])
             
         languages = args.writer.add_languages(
-                id_factory='Number')
+                lookup_factory='Number')
 
         new_profile = defaultdict(int)
 
@@ -97,14 +97,14 @@ class Dataset(BaseDataset):
                     1 if int(row1[1]) > 31 else 0)
             prosody = prosodic_string(tokens, _output='CcV')
 
-            if row1[2].strip('-'):
+            if row1[2].replace('_', '').replace('-', '').strip():
                 lex = args.writer.add_form_with_segments(
                         Value=row1[2],
                         Form=row2[2],
                         Segments=tokens,
                         Profile=graphemes,
                         Source=['Gauchat1925[{0}]'.format(page)],
-                        Language_ID=row1[1],
+                        Language_ID=languages[row1[1]],
                         Parameter_ID=concepts[row1[0]][0],
                         Scan=str(page+18).rjust(4, '0'),
                         ProsodicStructure=prosody

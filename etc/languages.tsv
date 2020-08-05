@@ -1,63 +1,63 @@
-Number	Name	Canton	Longitude	Latitude	DialectGroup	Population	SpeakerAge	SpeakerProficiency	SpeakerLanguageUse	SpeakerNote
-1	Chevroux	Vaud	6.9069294	46.8883582	Vaud	367	73	parlait le patois avec ses parents	n'a plus que rarement l'occasion de la pratique avec quelque vieux ou avec des Fribourgeois du voisinage.	tendance à franciser la pronunciation
-2	Vaugondry	Vaud	6.6362255	46.8467152	Vaud					
-3	L'Auberson	Vaud	6.4590043	46.8178516	Vaud					
-4	Vallorbe	Vaud	6.3796258	46.711414	Vaud					
-5	Le Sentier	Vaud	6.2358557	46.6122131	Vaud					
-6	Longirod	Vaud	6.2585316	46.4944282	Vaud					
-7	Commugny	Vaud	6.176213	46.320929	Vaud					
-8	Vullierens	Vaud	6.4816044	46.5727052	Vaud					
-9	Arnex	Vaud	6.5189028	46.6980681	Vaud					
-10	Villars-le-Terroir	Vaud	6.639461	46.657569	Vaud					
-11	Prahins	Vaud	6.7383916	46.7331778	Vaud					
-12	Montpreveyres	Vaud	6.742199	46.582048	Vaud					
-13	Charnex	Vaud	6.536765	46.5613135	Vaud					
-14	Roche	Vaud	6.9290939	46.3614134	Vaud					
-15	Ormont-Dessus	Vaud	7.158066	46.3514789	Vaud					
-16	Château-d'Oex	Vaud	7.1285556	46.4732964	Vaud					
-17	St-Gingolph	Valais	6.8047071	46.3931549	Valais					
-18	Collombey	Valais	6.9459222	46.2679563	Valais					
-19	Champéry	Valais	6.8693248	46.1778839	Valais					
-20	Martigny	Valais	7.073483	46.101706	Valais					
-21	Orsières	Valais	7.1463639	46.0308094	Valais					
-22	Lourtier	Valais	7.265844	46.049002	Valais					
-23	Fully	Valais	7.1147534	46.1385798	Valais					
-24	Conthey	Valais	7.3083227	46.2334191	Valais					
-25	Nendaz	Valais	7.3047431	46.1855093	Valais					
-26	Savièse	Valais	7.3509003	46.2535376	Valais					
-27	Ayent	Valais	7.4081901	46.2771888	Valais					
-28	Miège	Valais	7.5473871	46.3119557	Valais					
-29	Grône	Valais	7.4580917	46.2508508	Valais					
-30	Évolène	Valais	7.4963134	46.1125593	Valais					
-31	Grimentz	Valais	7.5763635	46.1801158	Valais					
-32	Collex	Genève	6.1235296	46.2761547	Genève					
-33	Vernier	Genève	6.084291	46.217026	Genève					
-34	Laconnex	Genève	6.0355571	46.1557721	Genève					
-35	Veyrier	Genève	6.1832454	46.16778	Genève					
-36	Hermance	Genève	6.244375	46.302258	Genève					
-37	Semsalves	Fribourg	6.9273567	46.5731935	Fribourg					
-38	Montbovon	Fribourg	7.0442231	46.4882147	Fribourg					
-39	Arconciel	Fribourg	7.1214922	46.7473353	Fribourg					
-40	Avry-sur-Matran	Fribourg	7.0698887	46.7895993	Fribourg					
-41	Courtepin	Fribourg	7.1238357	46.8652994	Fribourg					
-42	Dompierre	Fribourg	6.990713	46.8520788	Fribourg					
-43	Murist	Fribourg	6.8070537	46.7898177	Fribourg					
-44	Sugiez	Fribourg	7.1134823	46.9624815	Fribourg					
-45	Montalchez	Neuchâtel	6.746543	46.8977631	Neuchâtel					
-46	Boudry	Neuchâtel	6.837028	46.950218	Neuchâtel					
-47	Corcelles	Neuchâtel	6.8624613	46.9830376	Neuchâtel					
-48	Landeron	Neuchâtel	7.066851	47.055508	Neuchâtel					
-49	Savagnier	Neuchâtel	6.956111	47.050961	Neuchâtel					
-50	Côte-aux-Fées	Neuchâtel	6.489867	46.866729	Neuchâtel					
-51	Noiraigue	Neuchâtel	6.7246751	46.9562832	Neuchâtel					
-52	Chaux-du-Milieu	Neuchâtel	6.7022949	47.0127695	Neuchâtel					
-53	Cerneux-Pêquignot	Neuchâtel	6.6661454	47.0169066	Neuchâtel					
-54	Lamboing	Jura bernois	7.2159458	47.0995336	Jura bernois					
-55	Orvin	Jura bernois	7.250875	47.139974	Jura bernois					
-56	Plagne	Jura bernois	7.284885	47.1874392	Jura bernois					
-57	Sombeval	Jura bernois	7.1785922	47.1957904	Jura bernois					
-58	Court	Jura bernois	7.3367958	47.239562	Jura bernois					
-59	Vermes	Jura bernois	7.471447	47.329461	Jura bernois					
-60	Develier	Jura bernois	7.2946	47.356623	Jura bernois					
-61	Cerlatez	Jura bernois	7.027788	47.243446	Jura bernois					
-62	Courtedoux	Jura bernois	7.0413733	47.4101588	Jura bernois					
+ID	Number	Name	Canton	Longitude	Latitude	DialectGroup	Population	SpeakerAge	SpeakerProficiency	SpeakerLanguageUse	SpeakerNote
+Chevroux	1	Chevroux	Vaud	6.9069294	46.8883582	Vaud	367	73	parlait le patois avec ses parents	n'a plus que rarement l'occasion de la pratique avec quelque vieux ou avec des Fribourgeois du voisinage.	tendance à franciser la pronunciation
+Vaugondry	2	Vaugondry	Vaud	6.6362255	46.8467152	Vaud					
+LAuberson	3	L'Auberson	Vaud	6.4590043	46.8178516	Vaud					
+Vallorbe	4	Vallorbe	Vaud	6.3796258	46.711414	Vaud					
+LeSentier	5	Le Sentier	Vaud	6.2358557	46.6122131	Vaud					
+Longirod	6	Longirod	Vaud	6.2585316	46.4944282	Vaud					
+Commugny	7	Commugny	Vaud	6.176213	46.320929	Vaud					
+Vullierens	8	Vullierens	Vaud	6.4816044	46.5727052	Vaud					
+Arnex	9	Arnex	Vaud	6.5189028	46.6980681	Vaud					
+VillarsleTerroir	10	Villars-le-Terroir	Vaud	6.639461	46.657569	Vaud					
+Prahins	11	Prahins	Vaud	6.7383916	46.7331778	Vaud					
+Montpreveyres	12	Montpreveyres	Vaud	6.742199	46.582048	Vaud					
+Charnex	13	Charnex	Vaud	6.536765	46.5613135	Vaud					
+Roche	14	Roche	Vaud	6.9290939	46.3614134	Vaud					
+OrmontDessus	15	Ormont-Dessus	Vaud	7.158066	46.3514789	Vaud					
+ChateaudOex	16	Château-d'Oex	Vaud	7.1285556	46.4732964	Vaud					
+StGingolph	17	St-Gingolph	Valais	6.8047071	46.3931549	Valais					
+Collombey	18	Collombey	Valais	6.9459222	46.2679563	Valais					
+Champery	19	Champéry	Valais	6.8693248	46.1778839	Valais					
+Martigny	20	Martigny	Valais	7.073483	46.101706	Valais					
+Orsieres	21	Orsières	Valais	7.1463639	46.0308094	Valais					
+Lourtier	22	Lourtier	Valais	7.265844	46.049002	Valais					
+Fully	23	Fully	Valais	7.1147534	46.1385798	Valais					
+Conthey	24	Conthey	Valais	7.3083227	46.2334191	Valais					
+Nendaz	25	Nendaz	Valais	7.3047431	46.1855093	Valais					
+Saviese	26	Savièse	Valais	7.3509003	46.2535376	Valais					
+Ayent	27	Ayent	Valais	7.4081901	46.2771888	Valais					
+Miege	28	Miège	Valais	7.5473871	46.3119557	Valais					
+Grone	29	Grône	Valais	7.4580917	46.2508508	Valais					
+Evolene	30	Évolène	Valais	7.4963134	46.1125593	Valais					
+Grimentz	31	Grimentz	Valais	7.5763635	46.1801158	Valais					
+Collex	32	Collex	Genève	6.1235296	46.2761547	Genève					
+Vernier	33	Vernier	Genève	6.084291	46.217026	Genève					
+Laconnex	34	Laconnex	Genève	6.0355571	46.1557721	Genève					
+Veyrier	35	Veyrier	Genève	6.1832454	46.16778	Genève					
+Hermance	36	Hermance	Genève	6.244375	46.302258	Genève					
+Semsalves	37	Semsalves	Fribourg	6.9273567	46.5731935	Fribourg					
+Montbovon	38	Montbovon	Fribourg	7.0442231	46.4882147	Fribourg					
+Arconciel	39	Arconciel	Fribourg	7.1214922	46.7473353	Fribourg					
+AvrysurMatran	40	Avry-sur-Matran	Fribourg	7.0698887	46.7895993	Fribourg					
+Courtepin	41	Courtepin	Fribourg	7.1238357	46.8652994	Fribourg					
+Dompierre	42	Dompierre	Fribourg	6.990713	46.8520788	Fribourg					
+Murist	43	Murist	Fribourg	6.8070537	46.7898177	Fribourg					
+Sugiez	44	Sugiez	Fribourg	7.1134823	46.9624815	Fribourg					
+Montalchez	45	Montalchez	Neuchâtel	6.746543	46.8977631	Neuchâtel					
+Boudry	46	Boudry	Neuchâtel	6.837028	46.950218	Neuchâtel					
+Corcelles	47	Corcelles	Neuchâtel	6.8624613	46.9830376	Neuchâtel					
+Landeron	48	Landeron	Neuchâtel	7.066851	47.055508	Neuchâtel					
+Savagnier	49	Savagnier	Neuchâtel	6.956111	47.050961	Neuchâtel					
+CoteauxFees	50	Côte-aux-Fées	Neuchâtel	6.489867	46.866729	Neuchâtel					
+Noiraigue	51	Noiraigue	Neuchâtel	6.7246751	46.9562832	Neuchâtel					
+ChauxduMilieu	52	Chaux-du-Milieu	Neuchâtel	6.7022949	47.0127695	Neuchâtel					
+CerneuxPequignot	53	Cerneux-Pêquignot	Neuchâtel	6.6661454	47.0169066	Neuchâtel					
+Lamboing	54	Lamboing	Jura bernois	7.2159458	47.0995336	Jura bernois					
+Orvin	55	Orvin	Jura bernois	7.250875	47.139974	Jura bernois					
+Plagne	56	Plagne	Jura bernois	7.284885	47.1874392	Jura bernois					
+Sombeval	57	Sombeval	Jura bernois	7.1785922	47.1957904	Jura bernois					
+Court	58	Court	Jura bernois	7.3367958	47.239562	Jura bernois					
+Vermes	59	Vermes	Jura bernois	7.471447	47.329461	Jura bernois					
+Develier	60	Develier	Jura bernois	7.2946	47.356623	Jura bernois					
+Cerlatez	61	Cerlatez	Jura bernois	7.027788	47.243446	Jura bernois					
+Courtedoux	62	Courtedoux	Jura bernois	7.0413733	47.4101588	Jura bernois					
