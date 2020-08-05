@@ -1,9 +1,9 @@
 appdirs==1.4.4
 certifi==2020.4.5.1
 chardet==3.0.4
--e git+https://github.com/cldf/cldfbench/@35218fae227ca24cb135d11606d338bb4b59255c#egg=cldfbench
+-e git+https://github.com/cldf/cldfbench/@2c79d9b0c5ee416711913cf0cab174ef496d8a80#egg=cldfbench
 -e git+https://github.com/cldf/cldfcatalog@f26c9ac38c1ab111a55682ae83f4ac1cb03333c3#egg=cldfcatalog
--e git+https://github.com/LinguList/clldutils.git@a862d78e9145a931dec172708afd25ffd9920f7d#egg=clldutils
+clldutils==3.5.2
 colorlog==4.1.0
 -e git+https://github.com/cldf/csvw.git@af7d40bf541eca3dd499027179aa86a158405e7b#egg=csvw
 cycler==0.10.0
@@ -33,7 +33,7 @@ pycldf==1.14.1
 -e git+https://github.com/concepticon/pyconcepticon.git@86cf8b33182298c709736360e65caf29570d940e#egg=pyconcepticon
 pycountry==19.8.18
 -e git+https://github.com/clld/pyglottolog.git@c17c4d48c35c0666d58eac89ba5ea806f62a14ff#egg=pyglottolog
--e git+https://github.com/lexibank/pylexibank.git@a678369afabdf1a723e52cc17d201771208510b4#egg=pylexibank
+-e git+https://github.com/lexibank/pylexibank.git@2533f67b43a9c943fc06d39f1f8c1d164e858f50#egg=pylexibank
 pyparsing==2.4.7
 pytest==5.4.2
 regex==2020.5.14
