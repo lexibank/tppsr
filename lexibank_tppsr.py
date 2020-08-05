@@ -2,15 +2,14 @@ from collections import OrderedDict, defaultdict
 
 import attr
 from pathlib import Path
-from pylexibank import Concept, Language, FormSpec
+from pylexibank import Concept, Language, FormSpec, Lexeme
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank import progressbar
 
+from csvw.metadata import URITemplate
+
 from lingpy import *
 from clldutils.misc import slug
-from segments.tokenizer import Tokenizer
-
-from pyclts import CLTS
 
 @attr.s
 class CustomConcept(Concept):
@@ -22,6 +21,21 @@ class CustomConcept(Concept):
 class CustomLanguage(Language):
     Number = attr.ib(default=None)
     Canton = attr.ib(default=None)
+    Glottocode = attr.ib(default="stan1290")
+    Family = attr.ib(default="Indo-European")
+    SubGroup = attr.ib(default="Romance")
+    DialectGroup = attr.ib(default=None)
+    Population = attr.ib(default=None)
+    SpeakerAge = attr.ib(default=None)
+    SpeakerProficiency = attr.ib(default=None)
+    SpeakerLanguageUse = attr.ib(default=None)
+    SpeakerNote = attr.ib(default=None)
+
+
+@attr.s
+class CustomLexeme(Lexeme):
+    Scan = attr.ib(default=None)
+    ProsodicStructure = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -29,6 +43,7 @@ class Dataset(BaseDataset):
     dir = Path(__file__).parent
     concept_class = CustomConcept
     language_class = CustomLanguage
+    lexeme_class = CustomLexeme
     form_spec = FormSpec(
             first_form_only=True,
             missing_data=("#NAME?", ),
@@ -36,10 +51,17 @@ class Dataset(BaseDataset):
 
     def cmd_makecldf(self, args):
         args.writer.add_sources()
-
-        data = self.raw_dir.read_csv('graphemes.tsv', delimiter='\t')
-        args.writer.add_sources()
         
+        # add URI template
+        args.writer.cldf["FormTable", "Scan"].valueUrl = URITemplate('https://ia801505.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/gauchat-et-al-1925-tppsr/gauchat-et-al-1925-tppsr_jp2.zip&file=gauchat-et-al-1925-tppsr_jp2/gauchat-et-al-1925-tppsr_0{Scan}.jp2&id=Z2F1Y2hhdC1ldC1hbC0xOTI1LXRwcHNy&scale=5')
+
+        values = self.raw_dir.read_csv('tppsr-db-v20.txt', delimiter='\t')
+        forms = self.raw_dir.read_csv(
+                'tppsr-db-v20-ipa-narrow.txt',
+                delimiter='\t')
+
+        args.writer.add_sources()
+
         concepts = {}
         for concept in self.conceptlists[0].concepts.values():
             idx = '{0}_{1}'.format(
@@ -54,55 +76,38 @@ class Dataset(BaseDataset):
                     Concepticon_ID=concept.concepticon_id,
                     Concepticon_Gloss=concept.concepticon_gloss
                     )
-            concepts[concept.number] = idx
+            concepts[concept.number] = (idx, concept.attributes['page'])
             
         languages = args.writer.add_languages(
                 id_factory='Number')
-        
-        symbols = set()
-        bow = 'a͜ó'[1]
 
-        replacements = [
-            #('\u033e', ''),
-            #('\u0311', ''),
-            #('\u1daa', ''),
-            #('\u0331', '')
-            #('\u0331', ''),
-            #('\u0306', ''),
-            #('\u0304', '')
-            ]
+        new_profile = defaultdict(int)
 
+        for row1, row2 in progressbar(
+                zip(values, forms),
+                desc='cldfify'
+                ):
+            entry = row1[2]
+            for s, t in [('\u0320', '')]:
+                entry = entry.replace(s, t)
+            graphemes = ' '.join(self.tokenizer({}, entry,
+                column='Grapheme'))
+            tokens = self.tokenizer({}, entry, column='IPA')
+            page = int(concepts[row1[0]][1]) + (
+                    1 if int(row1[1]) > 31 else 0)
+            prosody = prosodic_string(tokens, _output='CcV')
 
-        tk = Tokenizer(self.dir.joinpath('etc', 'orthography.tsv'),
-                errors_replace=lambda x: '<'+x+'>')
-        bads = set()
-        bipa = CLTS().bipa
-        for line in progressbar(self.raw_dir.read_csv('graphemes.tsv', delimiter='\t')):
-            for segment in tk(line[3], column='IPA').split():
-                if bipa[segment].type == 'unknownsound':
-                    bads.add(line[3])
-
-            if line[3] != '#NAME?':
-                form = self.lexemes.get(line[3], line[3])
-                for s, t in replacements:
-                    form = form.replace(s, t)
-                args.writer.add_form(
-                        Value=line[3],
-                        Form=form,
-                        Parameter_ID=concepts[line[1]],
-                        Language_ID=line[2],
-                        Source=['Gauchat1925'])
-        visited = set()
-        for b in bads:
-            segs = tk(b, column='Grapheme').split()
-            segs2 = tk(b, column='IPA').split()
-            for i, (s1, s2) in enumerate(zip(segs, segs2)):
-                if s2[0] == '<':
-                    try:
-                        print(segs[i-1]+s1[1:-1]+'\t'+segs2[i-1])
-                    except:
-                        pass
-            #print(b+'\t'+tk(b, column='IPA'))
-
+            if row1[2].strip('-'):
+                lex = args.writer.add_form_with_segments(
+                        Value=row1[2],
+                        Form=row2[2],
+                        Segments=tokens,
+                        Profile=graphemes,
+                        Source=['Gauchat1925[{0}]'.format(page)],
+                        Language_ID=row1[1],
+                        Parameter_ID=concepts[row1[0]][0],
+                        Scan=str(page+18).rjust(4, '0'),
+                        ProsodicStructure=prosody
+                        )
 
 

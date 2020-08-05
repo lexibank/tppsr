@@ -6,6 +6,8 @@ Cite the source dataset as
 
 This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/ license
 
+Available online at https://archive.org/details/gauchat-et-al-1925-tppsr
+
 
 Conceptlists in Concepticon:
 - [Gauchat-1925-480](https://concepticon.clld.org/contributions/Gauchat-1925-480)
@@ -17,7 +19,7 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
-![Glottolog: 0%](https://img.shields.io/badge/Glottolog-0%25-red.svg "Glottolog: 0%")
+![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 48%](https://img.shields.io/badge/Concepticon-48%25-red.svg "Concepticon: 48%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
@@ -25,13 +27,13 @@ Conceptlists in Concepticon:
 
 - **Varieties:** 62
 - **Concepts:** 480
-- **Lexemes:** 29,759
-- **Sources:** 1
+- **Lexemes:** 29,485
+- **Sources:** 158
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 173,034
-- **Segments:** 227 (0 BIPA errors, 0 CTLS sound class errors, 227 CLTS modified)
-- **Inventory size (avg):** 74.06
+- **Tokens:** 166,904
+- **Segments:** 400 (0 BIPA errors, 0 CTLS sound class errors, 400 CLTS modified)
+- **Inventory size (avg):** 82.21
 
 # Contributors
 

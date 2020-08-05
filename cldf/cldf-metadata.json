@@ -6,6 +6,7 @@
     "dc:format": [
         "http://concepticon.clld.org/contributions/Gauchat-1925-480"
     ],
+    "dc:identifier": "https://archive.org/details/gauchat-et-al-1925-tppsr",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:related": null,
@@ -17,19 +18,19 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr/",
-            "dc:created": "bcf539d"
+            "dc:created": "6c7890e"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.2.1-7-g35d84ac"
+            "dc:created": "v4.2.1-7-g35d84acf81"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.3.0-107-g79157a1"
+            "dc:created": "v2.3.0-162-gc2397a0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -41,7 +42,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.6.10"
+            "dc:description": "3.8.2"
         },
         {
             "dc:title": "python-packages",
@@ -56,7 +57,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 29759,
+            "dc:extent": 29485,
             "tableSchema": {
                 "columns": [
                     {
@@ -125,6 +126,15 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
+                    },
+                    {
+                        "datatype": "string",
+                        "valueUrl": "https://ia801505.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/gauchat-et-al-1925-tppsr/gauchat-et-al-1925-tppsr_jp2.zip&file=gauchat-et-al-1925-tppsr_jp2/gauchat-et-al-1925-tppsr_0{Scan}.jp2&id=Z2F1Y2hhdC1ldC1hbC0xOTI1LXRwcHNy&scale=5",
+                        "name": "Scan"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ProsodicStructure"
                     }
                 ],
                 "foreignKeys": [
@@ -223,6 +233,34 @@
                     {
                         "datatype": "string",
                         "name": "Canton"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SubGroup"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "DialectGroup"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Population"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SpeakerAge"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SpeakerProficiency"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SpeakerLanguageUse"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SpeakerNote"
                     }
                 ],
                 "primaryKey": [
