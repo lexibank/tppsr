@@ -53,7 +53,7 @@ class Dataset(BaseDataset):
         args.writer.add_sources()
         
         # add URI template
-        args.writer.cldf["FormTable", "Scan"].valueUrl = URITemplate('https://ia801505.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/gauchat-et-al-1925-tppsr/gauchat-et-al-1925-tppsr_jp2.zip&file=gauchat-et-al-1925-tppsr_jp2/gauchat-et-al-1925-tppsr_0{Scan}.jp2&id=Z2F1Y2hhdC1ldC1hbC0xOTI1LXRwcHNy&scale=5')
+        args.writer.cldf["FormTable", "Scan"].valueUrl = URITemplate('https://ia801505.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/gauchat-et-al-1925-tppsr/gauchat-et-al-1925-tppsr_jp2.zip&file=gauchat-et-al-1925-tppsr_jp2/gauchat-et-al-1925-tppsr_{Scan}.jp2&id=Z2F1Y2hhdC1ldC1hbC0xOTI1LXRwcHNy&scale=5')
 
         values = self.raw_dir.read_csv('tppsr-db-v20.txt', delimiter='\t')
         forms = self.raw_dir.read_csv(
