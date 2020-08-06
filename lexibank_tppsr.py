@@ -87,9 +87,9 @@ class Dataset(BaseDataset):
             page = int(concepts[row1[0]][1]) + (1 if int(row1[1]) > 31 else 0)
             prosody = prosodic_string(tokens, _output='CcV')
 
-            phrase_data[row1[1]][row1[0]] = (row2[2], tokens)
-
             if row1[2].replace('_', '').replace('-', '').strip():
+                phrase_data[row1[1]][row1[0]] = (row2[2], tokens)
+
                 args.writer.add_form_with_segments(
                     Value=row1[2],
                     Form=row2[2],
