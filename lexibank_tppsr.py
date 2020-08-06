@@ -88,7 +88,7 @@ class Dataset(BaseDataset):
             prosody = prosodic_string(tokens, _output='CcV')
 
             if row1[2].replace('_', '').replace('-', '').strip():
-                phrase_data[row1[1]][row1[0]] = (row2[2], tokens)
+                phrase_data[row1[1]][row1[0]] = (row2[2], row1[2])
 
                 args.writer.add_form_with_segments(
                     Value=row1[2],
@@ -102,7 +102,7 @@ class Dataset(BaseDataset):
                     ProsodicStructure=prosody
                 )
 
-        args.writer.cldf.add_component('ExampleTable')
+        args.writer.cldf.add_component('ExampleTable', 'Alt_Transcription')
 
         for phrase in self.etc_dir.read_csv('phrases.csv', dicts=True):
             for lid, data in phrase_data.items():
@@ -114,6 +114,7 @@ class Dataset(BaseDataset):
                         Language_ID=lid,
                         Primary_Text=' '.join([data[cid][0] for cid in cids]),
                         Translated_Text=' '.join([concepts[cid][2] for cid in cids]),
+                        Alt_Transcription=' '.join([data[cid][1] for cid in cids]),
                     ))
                 except KeyError:
                     pass

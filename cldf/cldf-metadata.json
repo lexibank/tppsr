@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr",
-            "dc:created": "dbe1324"
+            "dc:created": "ffeccad"
         },
         {
             "rdf:type": "prov:Entity",
@@ -370,6 +370,10 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
                         "required": false,
                         "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Alt_Transcription"
                     }
                 ],
                 "foreignKeys": [
