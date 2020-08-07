@@ -18,19 +18,20 @@ class CustomConcept(Concept):
     Latin_Gloss = attr.ib(default=None)
     Number = attr.ib(default=None)
 
+
 @attr.s
 class CustomLanguage(Language):
     Number = attr.ib(default=None)
     Canton = attr.ib(default=None)
     Glottocode = attr.ib(default="stan1290")
     Family = attr.ib(default="Indo-European")
-    SubGroup = attr.ib(default="Romance")
     DialectGroup = attr.ib(default=None)
+    YearOfRecording = attr.ib(default=None)
     Population = attr.ib(default=None)
     SpeakerAge = attr.ib(default=None)
     SpeakerProficiency = attr.ib(default=None)
     SpeakerLanguageUse = attr.ib(default=None)
-    SpeakerNote = attr.ib(default=None)
+    SpeakerGender = attr.ib(default=None)
 
 
 @attr.s
@@ -40,26 +41,25 @@ class CustomLexeme(Lexeme):
 
 
 class Dataset(BaseDataset):
+    from csvw.metadata import Datatype
     id = "tppsr"
     dir = Path(__file__).parent
     concept_class = CustomConcept
     language_class = CustomLanguage
     lexeme_class = CustomLexeme
-    form_spec = FormSpec(
-            first_form_only=True,
-            missing_data=("#NAME?", ),
-            )
+    form_spec = FormSpec(first_form_only=True, missing_data=("#NAME?", ))
 
     def cmd_makecldf(self, args):
         args.writer.add_sources()
         
         # add URI template
         args.writer.cldf["FormTable", "Scan"].valueUrl = URITemplate('https://ia801505.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/gauchat-et-al-1925-tppsr/gauchat-et-al-1925-tppsr_jp2.zip&file=gauchat-et-al-1925-tppsr_jp2/gauchat-et-al-1925-tppsr_{Scan}.jp2&id=Z2F1Y2hhdC1ldC1hbC0xOTI1LXRwcHNy&scale=5')
+        for c in ['YearOfRecording', 'Population', 'SpeakerAge']:
+            args.writer.cldf['LanguageTable', c].datatype.base = 'integer'
+            args.writer.cldf['LanguageTable', c].datatype.minimum = 0
 
         values = self.raw_dir.read_csv('tppsr-db-v20.txt', delimiter='\t')
         forms = self.raw_dir.read_csv('tppsr-db-v20-ipa-narrow.txt', delimiter='\t')
-
-        args.writer.add_sources()
 
         concepts = {}
         for concept in self.conceptlists[0].concepts.values():
@@ -105,7 +105,7 @@ class Dataset(BaseDataset):
         args.writer.cldf.add_component('ExampleTable', 'Alt_Transcription')
 
         for phrase in self.etc_dir.read_csv('phrases.csv', dicts=True):
-            for lid, data in phrase_data.items():
+            for lid, data in sorted(phrase_data.items(), key=lambda i: i[0]):
                 lid = languages[lid]
                 cids = phrase['Concepts'].split()
                 try:
