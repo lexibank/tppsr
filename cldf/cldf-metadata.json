@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr",
-            "dc:created": "7495d75"
+            "dc:created": "4986154"
         },
         {
             "rdf:type": "prov:Entity",
@@ -28,15 +28,15 @@
         },
         {
             "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.2.1-25-g149f3c1"
-        },
-        {
-            "rdf:type": "prov:Entity",
             "dc:title": "CLTS",
             "rdf:about": "https://github.com/cldf-clts/clts",
             "dc:created": "v1.4-1-g7bb16a7"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
+            "dc:created": "v4.2.1-25-g149f3c1"
         }
     ],
     "prov:wasGeneratedBy": [
@@ -324,7 +324,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 11037,
+            "dc:extent": 10975,
             "tableSchema": {
                 "columns": [
                     {
