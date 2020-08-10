@@ -12,37 +12,37 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Gauchat et al.'s \"Tableaux phon\u00e9tiques des patois suisses romands\" from 1925",
-    "dcat:accessURL": "https://github.com/lexibank/tppsr/",
+    "dcat:accessURL": "https://github.com/lexibank/tppsr",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
-            "rdf:about": "https://github.com/lexibank/tppsr/",
-            "dc:created": "7b98369"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.2.1-7-g35d84acf81"
+            "rdf:about": "https://github.com/lexibank/tppsr",
+            "dc:created": "4986154"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.3.0-162-gc2397a0"
+            "dc:created": "v2.4.0-rc.1"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "CLTS",
-            "rdf:about": "https://github.com/cldf-clts/clts/",
-            "dc:created": "v1.4"
+            "rdf:about": "https://github.com/cldf-clts/clts",
+            "dc:created": "v1.4-1-g7bb16a7"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
+            "dc:created": "v4.2.1-25-g149f3c1"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.2"
+            "dc:description": "3.5.2"
         },
         {
             "dc:title": "python-packages",
@@ -236,18 +236,27 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "SubGroup"
-                    },
-                    {
-                        "datatype": "string",
                         "name": "DialectGroup"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 0
+                        },
+                        "name": "YearOfRecording"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 0
+                        },
                         "name": "Population"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 0
+                        },
                         "name": "SpeakerAge"
                     },
                     {
@@ -260,7 +269,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "SpeakerNote"
+                        "name": "SpeakerGender"
                     }
                 ],
                 "primaryKey": [
@@ -312,6 +321,99 @@
                 ]
             },
             "url": "parameters.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
+            "dc:extent": 10975,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true,
+                        "name": "Language_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#primaryText",
+                        "required": true,
+                        "name": "Primary_Text"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#analyzedWord",
+                        "required": false,
+                        "separator": "\\t",
+                        "name": "Analyzed_Word"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#gloss",
+                        "required": false,
+                        "separator": "\\t",
+                        "name": "Gloss"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#translatedText",
+                        "required": false,
+                        "name": "Translated_Text"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference",
+                        "required": false,
+                        "name": "Meta_Language_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                        "required": false,
+                        "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Alt_Transcription"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Meta_Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "examples.csv"
         }
     ]
 }
