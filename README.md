@@ -31,9 +31,9 @@ Conceptlists in Concepticon:
 - **Sources:** 158
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 166,883
-- **Segments:** 400 (0 BIPA errors, 0 CTLS sound class errors, 400 CLTS modified)
-- **Inventory size (avg):** 82.21
+- **Tokens:** 166,882
+- **Segments:** 398 (0 BIPA errors, 0 CTLS sound class errors, 398 CLTS modified)
+- **Inventory size (avg):** 81.55
 
 # Contributors
 
