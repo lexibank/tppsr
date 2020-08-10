@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr/",
-            "dc:created": "7b98369"
+            "dc:created": "9c2f945"
         },
         {
             "rdf:type": "prov:Entity",
@@ -135,6 +135,10 @@
                     {
                         "datatype": "string",
                         "name": "ProsodicStructure"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SegmentedValue"
                     }
                 ],
                 "foreignKeys": [
@@ -236,18 +240,27 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "SubGroup"
-                    },
-                    {
-                        "datatype": "string",
                         "name": "DialectGroup"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 0
+                        },
+                        "name": "YearOfRecording"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 0
+                        },
                         "name": "Population"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 0
+                        },
                         "name": "SpeakerAge"
                     },
                     {
@@ -260,7 +273,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "SpeakerNote"
+                        "name": "SpeakerGender"
                     }
                 ],
                 "primaryKey": [
@@ -312,6 +325,99 @@
                 ]
             },
             "url": "parameters.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
+            "dc:extent": 10975,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true,
+                        "name": "Language_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#primaryText",
+                        "required": true,
+                        "name": "Primary_Text"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#analyzedWord",
+                        "required": false,
+                        "separator": "\\t",
+                        "name": "Analyzed_Word"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#gloss",
+                        "required": false,
+                        "separator": "\\t",
+                        "name": "Gloss"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#translatedText",
+                        "required": false,
+                        "name": "Translated_Text"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference",
+                        "required": false,
+                        "name": "Meta_Language_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                        "required": false,
+                        "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Alt_Transcription"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Meta_Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "examples.csv"
         }
     ]
 }
