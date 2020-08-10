@@ -36,6 +36,7 @@ class CustomLanguage(Language):
 class CustomLexeme(Lexeme):
     Scan = attr.ib(default=None)
     ProsodicStructure = attr.ib(default=None)
+    SegmentedValue = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -70,7 +71,7 @@ class Dataset(BaseDataset):
             args.writer.add_concept(
                     ID=idx,
                     Number=concept.number,
-                    Name=concept.attributes['french'],
+                    Name=concept.gloss,
                     French_Gloss=concept.attributes['french'],
                     Latin_Gloss=concept.attributes['latin'],
                     Concepticon_ID=concept.concepticon_id,
@@ -93,6 +94,7 @@ class Dataset(BaseDataset):
             graphemes = ' '.join(self.tokenizer({}, entry,
                 column='Grapheme'))
             tokens = self.tokenizer({}, entry, column='IPA')
+            segmented_value = self.tokenizer({}, entry, column='Graphemes')
             page = int(concepts[row1[0]][1]) + (
                     1 if int(row1[1]) > 31 else 0)
             prosody = prosodic_string(tokens, _output='CcV')
@@ -100,14 +102,15 @@ class Dataset(BaseDataset):
             if row1[2].replace('_', '').replace('-', '').strip():
                 lex = args.writer.add_form_with_segments(
                         Value=row1[2],
-                        Form=row2[2],
+                        Form=''.join(tokens),
                         Segments=tokens,
                         Profile=graphemes,
                         Source=['Gauchat1925[{0}]'.format(page)],
                         Language_ID=languages[row1[1]],
                         Parameter_ID=concepts[row1[0]][0],
                         Scan=str(page+18).rjust(4, '0'),
-                        ProsodicStructure=prosody
+                        ProsodicStructure=prosody,
+                        SegmentedValue=segmented_value
                         )
 
 
