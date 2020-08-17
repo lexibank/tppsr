@@ -15,10 +15,15 @@
         "linguistics"
     ],
     "title": "CLDF dataset derived from Gauchat et al.'s \"Tableaux phon\u00e9tiques des patois suisses romands\" from 1925",
-    "contributors": [],
+    "contributors": [
+        {
+            "name": "Robert Forkel",
+            "type": "DataCurator"
+        }
+    ],
     "upload_type": "dataset",
     "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Gauchat, L.; Jeanjaquet, J. &amp; Tappolet, E. (1925): Tableaux phon\u00e9tiques des patois suisses romands Attinger: Neuch\u00e2tel.</p>\n</blockquote>",
     "license": {
-        "id": "CC-BY-NC-4.0"
+        "id": "CC-BY-4.0"
     }
 }

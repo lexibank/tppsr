@@ -4,7 +4,7 @@ Cite the source dataset as
 
 > Gauchat, L.; Jeanjaquet, J. & Tappolet, E. (1925): Tableaux phonétiques des patois suisses romands Attinger: Neuchâtel.
 
-This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/ license
+This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://tppsr.clld.org
 
@@ -19,6 +19,7 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
+[![Build Status](https://travis-ci.org/lexibank/tppsr.svg?branch=master)](https://travis-ci.org/lexibank/tppsr)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 48%](https://img.shields.io/badge/Concepticon-48%25-red.svg "Concepticon: 48%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -40,5 +41,6 @@ Conceptlists in Concepticon:
 Name               | GitHub user | Role
 ---                | ---         | ---
 Johann-Mattis List | @lingulist | maintainer
+Robert Forkel | @xrotwang | DataCurator
 
 

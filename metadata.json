@@ -1,7 +1,7 @@
 {
     "title": "CLDF dataset derived from Gauchat et al.'s \"Tableaux phonétiques des patois suisses romands\" from 1925",
     "url": "https://tppsr.clld.org",
-    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "license": "CC-BY-4.0",
     "citation": "Gauchat, L.; Jeanjaquet, J. & Tappolet, E. (1925): Tableaux phonétiques des patois suisses romands Attinger: Neuchâtel.",
     "conceptlist": "Gauchat-1925-480"
 }
