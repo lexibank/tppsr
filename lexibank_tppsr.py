@@ -68,7 +68,7 @@ class Dataset(BaseDataset):
             args.writer.add_concept(
                     ID=idx,
                     Number=concept.number,
-                    Name=concept.gloss,
+                    Name=concept.english,
                     French_Gloss=concept.attributes['french'],
                     Latin_Gloss=concept.attributes['latin'],
                     Concepticon_ID=concept.concepticon_id,
