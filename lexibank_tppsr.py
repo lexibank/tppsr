@@ -107,7 +107,22 @@ class Dataset(BaseDataset):
                     SegmentedValue=' '.join(self.tokenizer({}, entry, column='Graphemes'))
                 )
 
-        args.writer.cldf.add_component('ExampleTable', 'Alt_Transcription')
+        args.writer.cldf.add_component(
+            'ExampleTable',
+            'Alt_Transcription',
+            {
+                "name": "Concept_ID",
+                "separator": " ",
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
+            },
+            {
+                "name": "Form_ID",
+                "separator": " ",
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#formReference",
+            },
+        )
+        args.writer.cldf.add_foreign_key('ExampleTable', 'Concept_ID', 'ParameterTable', 'ID')
+        args.writer.cldf.add_foreign_key('ExampleTable', 'Form_ID', 'FormTable', 'ID')
 
         for phrase in self.etc_dir.read_csv('phrases.csv', dicts=True):
             for lid, data in sorted(phrase_data.items(), key=lambda i: i[0]):
@@ -120,6 +135,8 @@ class Dataset(BaseDataset):
                         Primary_Text=' '.join([data[cid][0] for cid in cids]),
                         Translated_Text=' '.join([concepts[cid][2] for cid in cids]),
                         Alt_Transcription=' '.join([data[cid][1] for cid in cids]),
+                        Concept_ID=[concepts[cid][0] for cid in cids],
+                        Form_ID=['{}-{}-1'.format(lid, concepts[cid][0]) for cid in cids],
                     ))
                 except KeyError:
                     pass
