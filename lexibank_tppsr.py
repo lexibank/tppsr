@@ -20,17 +20,19 @@ class CustomConcept(Concept):
 
 @attr.s
 class CustomLanguage(Language):
+    FullName = attr.ib(default=None)
     Number = attr.ib(default=None)
     Canton = attr.ib(default=None)
     Glottocode = attr.ib(default="stan1290")
     Family = attr.ib(default="Indo-European")
     DialectGroup = attr.ib(default=None)
-    YearOfRecording = attr.ib(default=None)
+    DateOfRecording = attr.ib(default=None)
     Population = attr.ib(default=None)
     SpeakerAge = attr.ib(default=None)
     SpeakerProficiency = attr.ib(default=None)
     SpeakerLanguageUse = attr.ib(default=None)
     SpeakerGender = attr.ib(default=None)
+    Investigators = attr.ib(default=None)
 
 
 @attr.s
@@ -57,7 +59,7 @@ class Dataset(BaseDataset):
             '?zip=/28/items/gauchat-et-al-1925-tppsr/gauchat-et-al-1925-tppsr_jp2.zip'
             '&file=gauchat-et-al-1925-tppsr_jp2/gauchat-et-al-1925-tppsr_{Scan}.jp2'
             '&id=Z2F1Y2hhdC1ldC1hbC0xOTI1LXRwcHNy&scale=5')
-        for c in ['YearOfRecording', 'Population', 'SpeakerAge']:
+        for c in ['Population', 'SpeakerAge']:
             args.writer.cldf['LanguageTable', c].datatype.base = 'integer'
             args.writer.cldf['LanguageTable', c].datatype.minimum = 0
 

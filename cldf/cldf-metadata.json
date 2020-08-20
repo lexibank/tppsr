@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr",
-            "dc:created": "807b7aa"
+            "dc:created": "v1.0-4-g18e4468"
         },
         {
             "rdf:type": "prov:Entity",
@@ -28,15 +28,15 @@
         },
         {
             "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
-            "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.3.0"
-        },
-        {
-            "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
             "dc:created": "v4.2.1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
+            "dc:created": "v2.3.0"
         }
     ],
     "prov:wasGeneratedBy": [
@@ -232,6 +232,10 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "FullName"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "Number"
                     },
                     {
@@ -243,11 +247,8 @@
                         "name": "DialectGroup"
                     },
                     {
-                        "datatype": {
-                            "base": "integer",
-                            "minimum": 0
-                        },
-                        "name": "YearOfRecording"
+                        "datatype": "string",
+                        "name": "DateOfRecording"
                     },
                     {
                         "datatype": {
@@ -274,6 +275,10 @@
                     {
                         "datatype": "string",
                         "name": "SpeakerGender"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Investigators"
                     }
                 ],
                 "primaryKey": [
