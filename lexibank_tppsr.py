@@ -91,7 +91,7 @@ class Dataset(BaseDataset):
             entry = row1[2]
             for s, t in [('\u0320', '')]:
                 entry = entry.replace(s, t)
-            tokens = self.tokenizer({}, entry, column='IPA')
+            tokens = self.tokenizer({}, entry.strip(), column='IPA')
             page = int(concepts[row1[0]][1]) + (1 if int(row1[1]) > 31 else 0)
 
             if row1[2].replace('_', '').replace('-', '').strip():
@@ -100,7 +100,7 @@ class Dataset(BaseDataset):
                     Value=row1[2],
                     Form=''.join(tokens),
                     Segments=tokens,
-                    Profile=' '.join(self.tokenizer({}, entry, column='Grapheme')),
+                    Profile=' '.join(self.tokenizer({}, entry.strip(), column='Grapheme')),
                     Source=['Gauchat1925[{0}]'.format(page)],
                     Language_ID=languages[row1[1]],
                     Parameter_ID=concepts[row1[0]][0],

@@ -19,7 +19,7 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/lexibank/tppsr.svg?branch=master)](https://travis-ci.org/lexibank/tppsr)
+[![Build Status](https://travis-ci.org/lexibank/tppsr/.svg?branch=master)](https://travis-ci.org/lexibank/tppsr/)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 48%](https://img.shields.io/badge/Concepticon-48%25-red.svg "Concepticon: 48%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -32,7 +32,7 @@ Conceptlists in Concepticon:
 - **Sources:** 158
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 166,882
+- **Tokens:** 166,630
 - **Segments:** 398 (0 BIPA errors, 0 CTLS sound class errors, 398 CLTS modified)
 - **Inventory size (avg):** 81.55
 
