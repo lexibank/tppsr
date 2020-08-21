@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr/",
-            "dc:created": "v1.0-5-g44b6222"
+            "dc:created": "v1.0-6-gc9c921e"
         },
         {
             "rdf:type": "prov:Entity",
@@ -42,7 +42,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.6.10"
+            "dc:description": "3.6.11"
         },
         {
             "dc:title": "python-packages",
