@@ -18,19 +18,19 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/tppsr",
-            "dc:created": "v1.0-8-g4f811dc"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
-            "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.3.0"
+            "dc:created": "v1.1-5-gb64683e"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
             "dc:created": "v4.2.1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
+            "dc:created": "v2.3.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -42,7 +42,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.5.2"
+            "dc:description": "3.6.12"
         },
         {
             "dc:title": "python-packages",
@@ -129,8 +129,12 @@
                     },
                     {
                         "datatype": "string",
-                        "valueUrl": "https://ia801505.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/gauchat-et-al-1925-tppsr/gauchat-et-al-1925-tppsr_jp2.zip&file=gauchat-et-al-1925-tppsr_jp2/gauchat-et-al-1925-tppsr_{Scan}.jp2&id=Z2F1Y2hhdC1ldC1hbC0xOTI1LXRwcHNy&scale=5",
+                        "valueUrl": "https://cdstar.shh.mpg.de/bitstreams/{Objid}/gauchat_et_al_1925_tppsr_{Scan}.png",
                         "name": "Scan"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Objid"
                     },
                     {
                         "datatype": "string",
