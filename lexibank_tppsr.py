@@ -49,7 +49,10 @@ class Dataset(BaseDataset):
     concept_class = CustomConcept
     language_class = CustomLanguage
     lexeme_class = CustomLexeme
-    form_spec = FormSpec(first_form_only=True, missing_data=("#NAME?", ))
+    form_spec = FormSpec(
+            first_form_only=True, missing_data=("#NAME?", ),
+            replacements=[("- - ", "-"), (" - ", "-"), ("- ", "-"), (" -", "")]
+            )
 
     def cmd_makecldf(self, args):
         args.writer.add_sources()
@@ -100,7 +103,7 @@ class Dataset(BaseDataset):
             entry = row1[2]
             for s, t in [('\u0320', '')]:
                 entry = entry.replace(s, t)
-            tokens = self.tokenizer({}, entry.strip(), column='IPA')
+            tokens = self.tokenizer({}, entry.strip().replace(' ', '_'), column='IPA')
             # Compute scan number from concept number and language number.
             page = int(concepts[row1[0]][1]) + int(int(row1[1]) > 31)
             scan = str(page + 18).rjust(4, '0')

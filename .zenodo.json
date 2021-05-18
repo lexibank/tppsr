@@ -7,13 +7,13 @@
     "access_right": "open",
     "creators": [
         {
-            "name": "Hans Geisler"
+            "name": "Gauchat, L."
         },
         {
-            "name": "Robert Forkel"
+            "name": "Jaenjaquet, J."
         },
         {
-            "name": "Johann-Mattis List"
+            "name": "Tappolet"
         }
     ],
     "keywords": [
@@ -21,7 +21,20 @@
         "linguistics"
     ],
     "title": "CLDF dataset derived from Gauchat et al.'s \"Tableaux phon\u00e9tiques des patois suisses romands\" from 1925",
-    "contributors": [],
+    "contributors": [
+        {
+            "name": "Hans Geisler",
+            "type": "Editor"
+        },
+        {
+            "name": "Robert Forkel",
+            "type": "Editor"
+        },
+        {
+            "name": "Johann-Mattis List",
+            "type": "Editor"
+        }
+    ],
     "upload_type": "dataset",
     "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Gauchat, L.; Jeanjaquet, J. &amp; Tappolet, E. (1925): Tableaux phon\u00e9tiques des patois suisses romands Attinger: Neuch\u00e2tel.</p>\n</blockquote>",
     "license": {

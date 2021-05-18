@@ -1,4 +1,16 @@
 Grapheme	Graphemes	IPA	Frequency	Sound_Types	CLTS
+^-	-	NULL
+-$	-	NULL
+--	--	+
+_-_	_-_	+
+_-$	_-	NULL
+^-_-_	-_-_	NULL
+^-_	-_	NULL
+__	__	+
+^-_-	--	NULL
+_	_	+
+^_	_	NULL
+_$	_	NULL
 ^	NULL	NULL	29296		
 y	y	j	3602	consonant	voiced palatal approximant consonant
 ė	ė	ə	3654	vowel	unrounded mid central vowel

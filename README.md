@@ -19,9 +19,9 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/lexibank/tppsr.svg?branch=master)](https://travis-ci.org/lexibank/tppsr)
+[![Build Status](https://travis-ci.org/lexibank/tppsr/.svg?branch=master)](https://travis-ci.org/lexibank/tppsr/)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
-![Concepticon: 48%](https://img.shields.io/badge/Concepticon-48%25-red.svg "Concepticon: 48%")
+![Concepticon: 50%](https://img.shields.io/badge/Concepticon-50%25-red.svg "Concepticon: 50%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
@@ -32,16 +32,20 @@ Conceptlists in Concepticon:
 - **Sources:** 158
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 166,630
+- **Tokens:** 166,535
 - **Segments:** 398 (0 BIPA errors, 0 CTLS sound class errors, 398 CLTS modified)
 - **Inventory size (avg):** 81.55
 
 # Contributors
 
-Name               | GitHub user | Role
----                | ---         | ---
-Hans Geisler | | maintainer
-Robert Forkel | @xrotwang | maintainer
-Johann-Mattis List | @lingulist | maintainer
+Name               | GitHub user | Description | Role
+---                | ---         | --- | ---
+Hans Geisler | | maintainer | Editor
+Robert Forkel | @xrotwang | maintainer | Editor
+Johann-Mattis List | @lingulist | maintainer | Editor
+Gauchat, L. | | original data collection | Author
+Jaenjaquet, J. | | original data collection | Author
+Tappolet | | original data collection | Author
+
 
 
