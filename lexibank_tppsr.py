@@ -59,7 +59,7 @@ class Dataset(BaseDataset):
 
         # We can link forms to scans of the page in the source where they appear:
         args.writer.cldf["FormTable", "Scan"].valueUrl = URITemplate(
-            'https://cdstar.shh.mpg.de/bitstreams/{Objid}/gauchat_et_al_1925_tppsr_{Scan}.png')
+            'https://cdstar.eva.mpg.de/bitstreams/{Objid}/gauchat_et_al_1925_tppsr_{Scan}.png')
         for c in ['Population', 'SpeakerAge']:
             args.writer.cldf['LanguageTable', c].datatype.base = 'integer'
             args.writer.cldf['LanguageTable', c].datatype.minimum = 0
