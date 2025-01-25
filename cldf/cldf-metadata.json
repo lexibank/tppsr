@@ -12,28 +12,28 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Gauchat et al.'s \"Tableaux phon\u00e9tiques des patois suisses romands\" from 1925",
-    "dcat:accessURL": "https://github.com/lexibank/tppsr/",
+    "dcat:accessURL": "https://github.com/lexibank/tppsr",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/lexibank/tppsr/",
+            "rdf:about": "https://github.com/lexibank/tppsr",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.1.1-3-g7d7eed1",
+            "dc:created": "v1.1.1-4-gf8e3c03",
             "dc:title": "Repository"
         },
         {
-            "rdf:about": "git@github.com:glottolog/glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
             "dc:created": "v5.1",
             "dc:title": "Glottolog"
         },
         {
-            "rdf:about": "git@github.com:concepticon/concepticon-data",
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
             "dc:created": "v3.3.0",
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
             "dc:created": "v2.3.0",
             "dc:title": "CLTS"
@@ -46,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.13.1"
+            "dc:description": "3.12.3"
         },
         {
             "dc:title": "python-packages",
