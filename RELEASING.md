@@ -15,4 +15,5 @@ pytest
 
 ```shell
 cldfbench cldfreadme lexibank_tppsr.py
+cldfbench cldfviz.map cldf/ --language-properties Canton --out map.svg --format svg
 ```

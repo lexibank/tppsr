@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/lexibank/tppsr",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.1.1-6-g48d726f",
+            "dc:created": "v1.1.1-7-gc2c75ae",
             "dc:title": "Repository"
         },
         {
