@@ -1,5 +1,7 @@
 # CLDF dataset derived from Gauchat et al.'s "Tableaux phonétiques des patois suisses romands" from 1925
 
+[![CLDF validation](https://github.com/lexibank/tppsr/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/tppsr/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite

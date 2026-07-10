@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/lexibank/tppsr",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.1.1-7-gc2c75ae",
+            "dc:created": "v1.1.2",
             "dc:title": "Repository"
         },
         {
@@ -357,7 +357,7 @@
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "required": true,
-                        "valueUrl": "https://https://s3.nexus.mpcdf.mpg.de/eva-dlce-tppsr/{Path_In_Zip}",
+                        "valueUrl": "https://s3.nexus.mpcdf.mpg.de/eva-dlce-tppsr/{Path_In_Zip}",
                         "name": "ID"
                     },
                     {

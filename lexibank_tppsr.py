@@ -77,7 +77,7 @@ class Dataset(BaseDataset):
         # We add another URL for the scans. Note that the row URL discovery algorithm implemented
         # in pycldf will prefer the URL in the Download_URL column over this one.
         args.writer.cldf["MediaTable", "ID"].valueUrl = URITemplate(
-            'https://https://s3.nexus.mpcdf.mpg.de/eva-dlce-tppsr/{Path_In_Zip}')
+            'https://s3.nexus.mpcdf.mpg.de/eva-dlce-tppsr/{Path_In_Zip}')
 
         for c in ['Population', 'SpeakerAge']:
             args.writer.cldf['LanguageTable', c].datatype.base = 'integer'
@@ -88,11 +88,11 @@ class Dataset(BaseDataset):
                 r'tppsr_(?P<number>[0-9]{4})\.png', o['metadata']['path']).group('number')
             args.writer.objects['MediaTable'].append(dict(
                 ID=num,
-                Name=o['metadata']['path'],
+                Name=o['metadata']['path'].replace('-', '_'),
                 Description='Scan of ',
                 Media_Type='image/png',
                 Download_URL=MEDIA_ZIP_URL,
-                Path_In_Zip=f"{objid}_{o['metadata']['path']}",
+                Path_In_Zip=f"{objid}_{o['metadata']['path'].replace('-', '_')}",
             ))
 
         values = self.raw_dir.read_csv('tppsr-db-v20.txt', delimiter='\t')
