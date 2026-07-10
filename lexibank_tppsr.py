@@ -1,8 +1,9 @@
 import re
 import collections
-
-import attr
+import dataclasses
+from typing import Optional
 from pathlib import Path
+
 from pylexibank import Concept, Language, FormSpec, Lexeme
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank import progressbar
@@ -11,36 +12,47 @@ from csvw.metadata import URITemplate
 from lingpy import prosodic_string
 from clldutils.misc import slug
 
-@attr.s
+MEDIA_DOI = "10.5281/zenodo.21292636"
+MEDIA_ZIP_URL = "https://zenodo.org/records/21292636/files/tppsr-scans.zip"
+
+
+@dataclasses.dataclass
 class CustomConcept(Concept):
-    French_Gloss = attr.ib(default=None)
-    Latin_Gloss = attr.ib(default=None)
-    Number = attr.ib(default=None)
+    """TPPSR concepts are glossed in French and Latin as well."""
+    French_Gloss: Optional[str] = None
+    Latin_Gloss: Optional[str] = None
+    Number: Optional[str] = None
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomLanguage(Language):
-    FullName = attr.ib(default=None)
-    Number = attr.ib(default=None)
-    Canton = attr.ib(default=None)
-    Glottocode = attr.ib(default="stan1290")
-    Family = attr.ib(default="Indo-European")
-    DialectGroup = attr.ib(default=None)
-    DateOfRecording = attr.ib(default=None)
-    Population = attr.ib(default=None)
-    SpeakerAge = attr.ib(default=None)
-    SpeakerProficiency = attr.ib(default=None)
-    SpeakerLanguageUse = attr.ib(default=None)
-    SpeakerGender = attr.ib(default=None)
-    Investigators = attr.ib(default=None)
+    """
+    TPPSR Varieties are 'doculects', i.e. language varieties as documented at a particular point
+    in time and space.
+    """
+    FullName: Optional[str] = None
+    Number: Optional[str] = None
+    Canton: Optional[str] = None
+    Glottocode: str = "stan1290"
+    Family: str = "Indo-European"
+    DialectGroup: Optional[str] = None
+    DateOfRecording: Optional[str] = None
+    Population: Optional[str] = None
+    SpeakerAge: Optional[str] = None
+    SpeakerProficiency: Optional[str] = None
+    SpeakerLanguageUse: Optional[str] = None
+    SpeakerGender: Optional[str] = None
+    Investigators: Optional[str] = None
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomLexeme(Lexeme):
-    Scan = attr.ib(default=None)
-    Objid = attr.ib(default=None)
-    ProsodicStructure = attr.ib(default=None)
-    SegmentedValue = attr.ib(default=None)
+    """TPPSR lexemes are digitized using scans of the original book pages."""
+    Scan: Optional[str] = dataclasses.field(
+        default=None,
+        metadata={'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#mediaReference'})
+    ProsodicStructure: Optional[str] = None
+    SegmentedValue: Optional[str] = None
 
 
 class Dataset(BaseDataset):
@@ -50,26 +62,45 @@ class Dataset(BaseDataset):
     language_class = CustomLanguage
     lexeme_class = CustomLexeme
     form_spec = FormSpec(
-            first_form_only=True, missing_data=("#NAME?", ),
-            replacements=[("- - ", "-"), (" - ", "-"), ("- ", "-"), (" -", "")]
-            )
+        first_form_only=True, missing_data=("#NAME?", ),
+        replacements=[("- - ", "-"), (" - ", "-"), ("- ", "-"), (" -", "")]
+    )
 
     def cmd_makecldf(self, args):
+        from pycldf import Dataset
         args.writer.add_sources()
+        t = args.writer.cldf.add_component('MediaTable')
+        t.common_props['dc:description'] = \
+            ("This dataset links individual forms to the scan of the page in the original source "
+             "it appears on. The scans have been obtained from the Public Domain data at "
+             "https://archive.org/details/gauchat-et-al-1925-tppsr")
+        # We add another URL for the scans. Note that the row URL discovery algorithm implemented
+        # in pycldf will prefer the URL in the Download_URL column over this one.
+        args.writer.cldf["MediaTable", "ID"].valueUrl = URITemplate(
+            'https://https://s3.nexus.mpcdf.mpg.de/eva-dlce-tppsr/{Path_In_Zip}')
 
-        # We can link forms to scans of the page in the source where they appear:
-        args.writer.cldf["FormTable", "Scan"].valueUrl = URITemplate(
-            'https://cdstar.eva.mpg.de/bitstreams/{Objid}/gauchat_et_al_1925_tppsr_{Scan}.png')
         for c in ['Population', 'SpeakerAge']:
             args.writer.cldf['LanguageTable', c].datatype.base = 'integer'
             args.writer.cldf['LanguageTable', c].datatype.minimum = 0
+
+        for objid, o in self.raw_dir.read_json('tppsr_scans.json').items():
+            num = re.search(
+                r'tppsr_(?P<number>[0-9]{4})\.png', o['metadata']['path']).group('number')
+            args.writer.objects['MediaTable'].append(dict(
+                ID=num,
+                Name=o['metadata']['path'],
+                Description='Scan of ',
+                Media_Type='image/png',
+                Download_URL=MEDIA_ZIP_URL,
+                Path_In_Zip=f"{objid}_{o['metadata']['path']}",
+            ))
 
         values = self.raw_dir.read_csv('tppsr-db-v20.txt', delimiter='\t')
         forms = self.raw_dir.read_csv('tppsr-db-v20-ipa-narrow.txt', delimiter='\t')
 
         concepts = {}
         for concept in self.conceptlists[0].concepts.values():
-            idx = '{0}_{1}'.format(concept.id, slug(concept.attributes['french']))
+            idx = f"{concept.id}_{slug(concept.attributes['french'])}"
             args.writer.add_concept(
                 ID=idx,
                 Number=concept.number,
@@ -86,17 +117,6 @@ class Dataset(BaseDataset):
             )
             
         languages = args.writer.add_languages(lookup_factory='Number')
-
-        def scan_number(bitstreams):
-            p = re.compile(r'tppsr_(?P<number>[0-9]{4})\.png')
-            for bs in bitstreams:
-                m = p.search(bs['bitstreamid'])
-                if m:
-                    return m.group('number')
-
-        scans = {
-            scan_number(o['bitstreams']): objid
-            for objid, o in self.raw_dir.read_json('tppsr_scans.json').items()}
 
         phrase_data = collections.defaultdict(dict)
         for row1, row2 in progressbar(zip(values, forms), desc='cldfify'):
@@ -119,7 +139,6 @@ class Dataset(BaseDataset):
                     Language_ID=languages[row1[1]],
                     Parameter_ID=concepts[row1[0]][0],
                     Scan=scan,
-                    Objid=scans[scan],
                     ProsodicStructure=prosodic_string(tokens, _output='CcV'),
                     SegmentedValue=' '.join(self.tokenizer({}, entry, column='Graphemes'))
                 )

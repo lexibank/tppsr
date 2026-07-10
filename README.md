@@ -16,7 +16,7 @@ Available online at https://tppsr.clld.org
 
 
 Conceptlists in Concepticon:
-- [Gauchat-1925-480](https://concepticon.clld.org/contributions/Gauchat-1925-480)
+- [Gauchat-1925-480](https://concepticon.clld.org/contributions/0)
 ## Notes
 
 
@@ -25,11 +25,12 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
-![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
-![Concepticon: 51%](https://img.shields.io/badge/Concepticon-51%25-red.svg "Concepticon: 51%")
-![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
-![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
+[![CLDF validation](https://github.com/lexibank/tppsr/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/tppsr/actions?query=workflow%3ACLDF-validation)
+![Glottolog: 100%](etc/badge_languages.svg)
+![Concepticon: 51%](etc/badge_concepts.svg)
+![Source: 100%](etc/badge_sources.svg)
+![BIPA: 100%](etc/badge_bipa.svg)
+![CLTS SoundClass: 100%](etc/badge_sc.svg)
 
 - **Varieties:** 62 (linked to 1 different Glottocodes)
 - **Concepts:** 480 (linked to 243 different Concepticon concept sets)

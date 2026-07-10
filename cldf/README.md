@@ -10,17 +10,19 @@ property | value
  --- | ---
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Gauchat, L.; Jeanjaquet, J. & Tappolet, E. (1925): Tableaux phonétiques des patois suisses romands Attinger: Neuchâtel.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
-[dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Gauchat-1925-480</li></ol>
+[dc:format](http://purl.org/dc/terms/format) | <ol><li>https://concepticon.clld.org/contributions/Gauchat-1925-480</li></ol>
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://tppsr.clld.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lexibank/tppsr
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/tppsr/tree/1a97dc9">lexibank/tppsr v1.1.1-5-g1a97dc9</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.3.0">Concepticon v3.3.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/tppsr/tree/48d726f">lexibank/tppsr  v1.1.1-6-g48d726f</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.3">Glottolog  v5.3</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.4.0">Concepticon  v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS  v2.3.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | tppsr
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
 ## <a name="table-formscsv"></a>Table [forms.csv](./forms.csv)
+
+TPPSR lexemes are digitized using scans of the original book pages.
 
 property | value
  --- | ---
@@ -45,12 +47,16 @@ Name/Property | Datatype | Description
 `Loan` | `boolean` | 
 `Graphemes` | `string` | 
 `Profile` | `string` | 
-`Scan` | `string` | 
-`Objid` | `string` | 
+[Scan](http://cldf.clld.org/v1.0/terms.rdf#mediaReference) | `string` | References [media.csv::ID](#table-mediacsv)
 `ProsodicStructure` | `string` | 
 `SegmentedValue` | `string` | 
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
+
+
+TPPSR Varieties are 'doculects', i.e. language varieties as documented at a particular point
+in time and space.
+
 
 property | value
  --- | ---
@@ -85,6 +91,8 @@ Name/Property | Datatype | Description
 
 ## <a name="table-parameterscsv"></a>Table [parameters.csv](./parameters.csv)
 
+TPPSR concepts are glossed in French and Latin as well.
+
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ParameterTable](http://cldf.clld.org/v1.0/terms.rdf#ParameterTable)
@@ -102,6 +110,27 @@ Name/Property | Datatype | Description
 `French_Gloss` | `string` | 
 `Latin_Gloss` | `string` | 
 `Number` | `string` | 
+
+## <a name="table-mediacsv"></a>Table [media.csv](./media.csv)
+
+This dataset links individual forms to the scan of the page in the original source it appears on. The scans have been obtained from the Public Domain data at https://archive.org/details/gauchat-et-al-1925-tppsr
+
+property | value
+ --- | ---
+[dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF MediaTable](http://cldf.clld.org/v1.0/terms.rdf#MediaTable)
+[dc:extent](http://purl.org/dc/terms/extent) | 217
+
+
+### Columns
+
+Name/Property | Datatype | Description
+ --- | --- | --- 
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
+[Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
+[Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
+[Media_Type](http://cldf.clld.org/v1.0/terms.rdf#mediaType) | `string`<br>Regex: `[^/]+/.+` | 
+[Download_URL](http://cldf.clld.org/v1.0/terms.rdf#downloadUrl) | `anyURI` | 
+[Path_In_Zip](http://cldf.clld.org/v1.0/terms.rdf#pathInZip) | `string` | 
 
 ## <a name="table-examplescsv"></a>Table [examples.csv](./examples.csv)
 
@@ -127,4 +156,3 @@ Name/Property | Datatype | Description
 `Alt_Transcription` | `string` | 
 [Concept_ID](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | list of `string` (separated by ` `) | References [parameters.csv::ID](#table-parameterscsv)
 [Form_ID](http://cldf.clld.org/v1.0/terms.rdf#formReference) | list of `string` (separated by ` `) | References [forms.csv::ID](#table-formscsv)
-
